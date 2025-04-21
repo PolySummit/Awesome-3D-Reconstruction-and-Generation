@@ -16,8 +16,8 @@
 ## Contents
 - [Awesome 3D Reconstruction and Generation](#awesome-3d-reconstruction-and-generation)
   - [3D Reconstruction](#reconstruction)
-    - [Class 1](#reconstruction-class1)
-    - [Class 2](#reconstruction-class2)
+    - [End to End Recon](#reconstruction-class1)
+    - [Few Shot generated Recon](#reconstruction-class2)
   - [Articulated Object Reconstruction](#articulate)
   - [Indoor Scene Layout Generation](#layout)
   - [Human Motion Generation](#human-motion)
@@ -25,14 +25,14 @@
 
 ## <span id="reconstruction">3D Reconstruction</span>
 
-### <span id="reconstruction-class1">Class1</span>
+### <span id="reconstruction-class1">End to End Recon</span>
 | Title                                                        | Model | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :-----: | :----------------------------------------------------------: | :---: |
+| [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/pdf/2312.14132) | DUSt3R | 06/2024 |  [code](https://github.com/naver/dust3r)  | CVPR 2024 |
 | [paper title](link) | Model | 03/2025 |  [code](link)  | arXiv |
 | [paper title](link) | Model | 01/2025 |  [project](link)  | CVPR 2025 |
-| [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/pdf/2312.14132) | DUSt3R | 06/2024 |  [code](https://github.com/naver/dust3r)  | CVPR 2024 |
 
-### <span id="reconstruction-class2">Class2</span>
+### <span id="reconstruction-class2">Few Shot generated Recon</span>
 | Title                                                        | Model | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :-----: | :----------------------------------------------------------: | :---: |
 | [paper title](link) | Model | 03/2025 |  [code](link)  | arXiv |
