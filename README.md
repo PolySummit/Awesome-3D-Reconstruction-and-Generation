@@ -14,7 +14,7 @@
 :heart: Pull requests or issues for updates are very welcome.
 
 ## Contents
-- [Awesome Reconstruction and Simulation](#awesome-3d-reconstruction-and-generation)
+- [Awesome 3D Reconstruction and Generation](#awesome-3d-reconstruction-and-generation)
   - [3D Reconstruction](#reconstruction)
     - [Class 1](#reconstruction-class1)
     - [Class 2](#reconstruction-class2)
