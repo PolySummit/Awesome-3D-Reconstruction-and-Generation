@@ -1,20 +1,20 @@
-<h1 align="center">Awesome Reconstruction and Simulation</h1>
+<h1 align="center">Awesome 3D Reconstruction and Generation</h1>
 
 <p align="center">
     <a href="" alt="">
-        <img src="https://img.shields.io/github/commit-activity/m/polysummit/awesome-reconstruction-and-simulation?colorB=b74e45" /></a>
+        <img src="https://img.shields.io/github/commit-activity/m/polysummit/awesome-3d-reconstruction-and-generation?colorB=b74e45" /></a>
     <a href="" alt="">
-        <img src="https://img.shields.io/github/last-commit/polysummit/awesome-reconstruction-and-simulation?colorB=54b345" /></a>
+        <img src="https://img.shields.io/github/last-commit/polysummit/awesome-3d-reconstruction-and-generation?colorB=54b345" /></a>
     <a href="" alt="">
-        <img src="https://visitor-badge.laobi.icu/badge?page_id=polysummit.awesome-reconstruction-and-simulation?style=flat-square" /></a>
+        <img src="https://visitor-badge.laobi.icu/badge?page_id=polysummit.awesome-3d-reconstruction-and-generation?style=flat-square" /></a>
 </p>
 
-🌟 A curate list of papers, datasets, and projects for 3D Reconstruction and Simulation.
+🌟 A curate list of papers, datasets, and projects for 3D Reconstruction and Generation.
 
 :heart: Pull requests or issues for updates are very welcome.
 
 ## Contents
-- [Awesome Reconstruction and Simulation](#awesome-reconstruction-and-simulation)
+- [Awesome Reconstruction and Simulation](#awesome-3d-reconstruction-and-generation)
   - [3D Reconstruction](#reconstruction)
     - [Class 1](#reconstruction-class1)
     - [Class 2](#reconstruction-class2)
