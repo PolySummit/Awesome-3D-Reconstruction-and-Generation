@@ -53,7 +53,7 @@
 ## <span id="physics">🧸 Physical Object Generation</span>
 | Title                                                        | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
-| [SOPHY: Generating Simulation-Ready Objects with PHYsical Materials](link) | 04/2025 |  [project](https://xjay18.github.io/SOPHY/)  | arXiv |
+| [SOPHY: Generating Simulation-Ready Objects with PHYsical Materials](https://arxiv.org/pdf/2504.12684) | 04/2025 |  [project](https://xjay18.github.io/SOPHY/)  | arXiv |
 
 
 
