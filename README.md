@@ -57,21 +57,21 @@
 
 
 
-## <span id="articulate">Articulated Object Generation</span>
+## <span id="articulate">🤖 Articulated Object Generation</span>
 | Title                                                        | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
 | [paper title](link) | 03/2025 |  [code](link)  | arXiv |
 | [paper title](link) | 01/2025 |  [project](link)  | CVPR 2025 |
 | [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/pdf/2312.14132) | 06/2024 |  [code](https://github.com/naver/dust3r)  | CVPR 2024 |
 
-## <span id="layout">Indoor Scene Layout Generation</span>
+## <span id="layout">🏠 Indoor Scene Layout Generation</span>
 | Title                                                        | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
 | [paper title](link) | 03/2025 |  [code](link)  | arXiv |
 | [paper title](link) | 01/2025 |  [project](link)  | CVPR 2025 |
 | [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/pdf/2312.14132) | 06/2024 |  [code](https://github.com/naver/dust3r)  | CVPR 2024 |
 
-## <span id="human-motion">Human Motion Generation</span>
+## <span id="human-motion">🕺 Human Motion Generation</span>
 | Title                                                        | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
 | [paper title](link) | 03/2025 |  [code](link)  | arXiv |
