@@ -17,7 +17,7 @@
 - [Awesome 3D Reconstruction and Generation](#awesome-3d-reconstruction-and-generation)
   - [3D Reconstruction](#reconstruction)
     - [Feedforward Recon](#reconstruction-class1)
-    - [Few Shot generated Recon](#reconstruction-class2)
+    - [Few Shot Generated Recon](#reconstruction-class2)
   - [Articulated Object Reconstruction](#articulate)
   - [Indoor Scene Layout Generation](#layout)
   - [Human Motion Generation](#human-motion)
@@ -35,13 +35,13 @@
 | [Fast3R: Towards 3D Reconstruction of 1000+ Images in One Forward Pass](https://arxiv.org/abs/2501.13928) |  01/2025 | [code](https://github.com/facebookresearch/fast3r) | CVPR 2025 |
 | [Continuous 3D Perception Model with Persistent State](https://arxiv.org/pdf/2501.12387) |  01/2025 | [code](https://github.com/CUT3R/CUT3R) | CVPR 2025 |
 | [SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos](https://arxiv.org/pdf/2412.09401) |  12/2024 | [code](https://github.com/PKU-VCL-3DV/SLAM3R) | CVPR 2025 |
+| [Reloc3r: Large-Scale Training of Relative Camera Pose Regression for Generalizable, Fast, and Accurate Visual Localization](https://arxiv.org/pdf/2412.08376) |  12/2024 | [code](https://github.com/ffrivera0/reloc3r) | CVPR 2025 |
 | [MV-DUSt3R+: Single-Stage Scene Reconstruction from Sparse Views In 2 Seconds](https://arxiv.org/pdf/2412.06974) | 12/2024 | [code](https://github.com/facebookresearch/mvdust3r) | CVPR 2025 |
 | [3D Reconstruction with Spatial Memory](https://arxiv.org/abs/2408.16061) | 08/2024 |  [code](https://github.com/HengyiWang/spann3r)  | 3DV 2025 |
 | [Grounding Image Matching in 3D with MASt3R](https://arxiv.org/abs/2406.09756) | 06/2024 |  [code](https://github.com/naver/mast3r)  | Arxiv 2024 |
 | [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/pdf/2312.14132) | 12/2023 |  [code](https://github.com/naver/dust3r)  | CVPR 2024 |
 
-
-### <span id="reconstruction-class2">Few Shot generated Recon</span>
+### <span id="reconstruction-class2">Few Shot Generated Recon</span>
 | Title                                                        | Model | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :-----: | :----------------------------------------------------------: | :---: |
 | [paper title](link) | Model | 03/2025 |  [code](link)  | arXiv |
