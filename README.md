@@ -16,17 +16,10 @@
 ## Contents
 - [3D Reconstruction](#reconstruction)
     - [Feedforward Recon](#reconstruction-class1)
-<<<<<<< HEAD
-    - [Few Shot Generated Recon](#reconstruction-class2)
-  - [Articulated Object Reconstruction](#articulate)
-  - [Indoor Scene Layout Generation](#layout)
-  - [Human Motion Generation](#human-motion)
-=======
     - [Few Shot generated Recon](#reconstruction-class2)
 - [Articulated Object Reconstruction](#articulate)
 - [Indoor Scene Layout Generation](#layout)
 - [Human Motion Generation](#human-motion)
->>>>>>> 77d8652fcd8294fcc0fa5efa9af0f3c5b445bed2
 
 
 ## <span id="reconstruction">3D Reconstruction</span>
