@@ -14,13 +14,12 @@
 :heart: Pull requests or issues for updates are very welcome.
 
 ## Contents
-- [Awesome 3D Reconstruction and Generation](#awesome-3d-reconstruction-and-generation)
-  - [3D Reconstruction](#reconstruction)
+- [3D Reconstruction](#reconstruction)
     - [Feedforward Recon](#reconstruction-class1)
     - [Few Shot generated Recon](#reconstruction-class2)
-  - [Articulated Object Reconstruction](#articulate)
-  - [Indoor Scene Layout Generation](#layout)
-  - [Human Motion Generation](#human-motion)
+- [Articulated Object Reconstruction](#articulate)
+- [Indoor Scene Layout Generation](#layout)
+- [Human Motion Generation](#human-motion)
 
 
 ## <span id="reconstruction">3D Reconstruction</span>
@@ -42,29 +41,29 @@
 
 
 ### <span id="reconstruction-class2">Few Shot generated Recon</span>
-| Title                                                        | Model | Date   |                             Link                             | Venue |
-| :----------------------------------------------------------- | :-----: | :-----: | :----------------------------------------------------------: | :---: |
-| [paper title](link) | Model | 03/2025 |  [code](link)  | arXiv |
-| [VideoLifter: Lifting Videos to 3D with Fast Hierarchical Stereo Alignment](https://arxiv.org/pdf/2501.01949) | VideoLifter | 01/2025 |  |  |
-| [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/pdf/2312.14132) | DUSt3R | 06/2024 |  [code](https://github.com/naver/dust3r)  | CVPR 2024 |
+| Title                                                        | Date   |                             Link                             | Venue |
+| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
+| [paper title](link) | 03/2025 |  [code](link)  | arXiv |
+| [VideoLifter: Lifting Videos to 3D with Fast Hierarchical Stereo Alignment](https://arxiv.org/pdf/2501.01949) | 01/2025 |  |  |
+| [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/pdf/2312.14132) | 06/2024 |  [code](https://github.com/naver/dust3r)  | CVPR 2024 |
 
 ## <span id="articulate">Articulated Object Reconstruction</span>
-| Title                                                        | Model | Date   |                             Link                             | Venue |
-| :----------------------------------------------------------- | :-----: | :-----: | :----------------------------------------------------------: | :---: |
-| [paper title](link) | Model | 03/2025 |  [code](link)  | arXiv |
-| [paper title](link) | Model | 01/2025 |  [project](link)  | CVPR 2025 |
-| [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/pdf/2312.14132) | DUSt3R | 06/2024 |  [code](https://github.com/naver/dust3r)  | CVPR 2024 |
+| Title                                                        | Date   |                             Link                             | Venue |
+| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
+| [paper title](link) | 03/2025 |  [code](link)  | arXiv |
+| [paper title](link) | 01/2025 |  [project](link)  | CVPR 2025 |
+| [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/pdf/2312.14132) | 06/2024 |  [code](https://github.com/naver/dust3r)  | CVPR 2024 |
 
 ## <span id="layout">Indoor Scene Layout Generation</span>
-| Title                                                        | Model | Date   |                             Link                             | Venue |
-| :----------------------------------------------------------- | :-----: | :-----: | :----------------------------------------------------------: | :---: |
-| [paper title](link) | Model | 03/2025 |  [code](link)  | arXiv |
-| [paper title](link) | Model | 01/2025 |  [project](link)  | CVPR 2025 |
-| [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/pdf/2312.14132) | DUSt3R | 06/2024 |  [code](https://github.com/naver/dust3r)  | CVPR 2024 |
+| Title                                                        | Date   |                             Link                             | Venue |
+| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
+| [paper title](link) | 03/2025 |  [code](link)  | arXiv |
+| [paper title](link) | 01/2025 |  [project](link)  | CVPR 2025 |
+| [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/pdf/2312.14132) | 06/2024 |  [code](https://github.com/naver/dust3r)  | CVPR 2024 |
 
 ## <span id="human-motion">Human Motion Generation</span>
-| Title                                                        | Model | Date   |                             Link                             | Venue |
-| :----------------------------------------------------------- | :-----: | :-----: | :----------------------------------------------------------: | :---: |
-| [paper title](link) | Model | 03/2025 |  [code](link)  | arXiv |
-| [paper title](link) | Model | 01/2025 |  [project](link)  | CVPR 2025 |
-| [Human-Object Interaction from Human-Level Instructions](https://arxiv.org/pdf/2406.17840) |  | 12/2024 |  [project](https://hoifhli.github.io/)  | arXiv |
+| Title                                                        | Date   |                             Link                             | Venue |
+| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
+| [paper title](link) | 03/2025 |  [code](link)  | arXiv |
+| [paper title](link) | 01/2025 |  [project](link)  | CVPR 2025 |
+| [Human-Object Interaction from Human-Level Instructions](https://arxiv.org/pdf/2406.17840) | 12/2024 |  [project](https://hoifhli.github.io/)  | arXiv |
