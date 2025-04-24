@@ -45,9 +45,14 @@
 ### <span id="reconstruction-class2">Few Shot generated Recon</span>
 | Title                                                        | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
-| [paper title](link) | 03/2025 |  [code](link)  | arXiv |
-| [VideoLifter: Lifting Videos to 3D with Fast Hierarchical Stereo Alignment](https://arxiv.org/pdf/2501.01949) | 01/2025 |  |  |
-| [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/pdf/2312.14132) | 06/2024 |  [code](https://github.com/naver/dust3r)  | CVPR 2024 |
+| [GenFusion: Closing the Loop between Reconstruction and Generation via Videos](https://arxiv.org/pdf/2503.21219) | 03/2025 | [code](https://github.com/Inception3D/GenFusion) | CVPR 2025 |
+| [Difix3D+: Improving 3D Reconstructions with Single-Step Diffusion Models](https://arxiv.org/abs/2503.01774) | 03/2025 |  | CVPR 2025 |
+| [Free360: Layered Gaussian Splatting for Unbounded 360-Degree View Synthesis from Extremely Sparse and Unposed Views](https://arxiv.org/pdf/2503.24382) | 03/2025 |  | CVPR 2025 |
+| [LiftImage3D: Lifting Any Single Image to 3D Gaussians with Video Generation Priors](https://arxiv.org/abs/2412.09597) | 12/2024 | [code](https://github.com/AbrahamYabo/LiftImage3D) | arXiv |
+| [MVSplat360: Feed-Forward 360 Scene Synthesis from Sparse Views](https://arxiv.org/abs/2411.04924) | 11/2024 | [code](https://github.com/donydchen/mvsplat360) | NeurIPS 2024 |
+| [3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors](https://arxiv.org/abs/2410.16266) | 10/2024 |  | NeurIPS 2024 |
+| [ViewCrafter: Taming Video Diffusion Models for High-fidelity Novel View Synthesis](https://arxiv.org/abs/2409.02048) | 09/2024 | [code](https://drexubery.github.io/ViewCrafter/) | arXiv |
+| [ReconX: Reconstruct Any Scene from Sparse Views with Video Diffusion Model](https://arxiv.org/abs/2408.16767) | 08/2024 |  | arXiv |
 
 
 ## <span id="physics">🧸 Physical Object Generation</span>
