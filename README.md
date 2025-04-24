@@ -88,11 +88,18 @@
 
 
 ## <span id="human-motion">🕺 Human Motion Generation</span>
+
+### <span id="human-motion-class1">Human-Scene Interaction</span>
 | Title                                                        | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
-| [paper title](link) | 03/2025 |  [code](link)  | arXiv |
-| [paper title](link) | 01/2025 |  [project](link)  | CVPR 2025 |
-| [Human-Object Interaction from Human-Level Instructions](https://arxiv.org/pdf/2406.17840) | 12/2024 |  [project](https://hoifhli.github.io/)  | arXiv |
+| [ZeroHSI: Zero-Shot 4D Human-Scene Interaction by Video Generation](https://arxiv.org/abs/2412.18600) | 12/2024 |  [project](https://awfuact.github.io/zerohsi/)  | arXiv |
+| [Autonomous Character-Scene Interaction Synthesis from Text Instruction](https://arxiv.org/abs/2410.03187) | 10/2024 |  [code](https://github.com/mileret/lingo-release)  | SIGGRAPH Aisa 2024 |
+| [Human-Object Interaction from Human-Level Instructions](https://arxiv.org/pdf/2406.17840) | 06/2024 |  [project](https://hoifhli.github.io/)  | arXiv |
+| [Generating Human Motion in 3D Scenes from Text Descriptions](https://arxiv.org/abs/2405.07784) | 05/2024 |  [code](https://github.com/zju3dv/text_scene_motion)  | CVPR 2024 |
+| [Generating Human Interaction Motions in Scenes with Text Control](https://arxiv.org/abs/2404.10685) | 04/2024 |  [code](https://github.com/nv-tlabs/tesmo)  | ECCV 2024 |
+| [Controllable Human-Object Interaction Synthesis](https://arxiv.org/abs/2312.03913) | 12/2023 |  [code](https://github.com/lijiaman/chois_release)  | ECCV 2024 oral |
+| [HUMANISE: Language-conditioned Human Motion Generation in 3D Scenes](https://arxiv.org/abs/2210.09729) | 10/2022 |  [project](https://silverster98.github.io/HUMANISE/)  | NIPS 2022 |
+
 
 
 ## <span id="star">🌟 Star History</span>
