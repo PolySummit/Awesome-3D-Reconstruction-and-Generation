@@ -2,9 +2,9 @@
 
 <p align="center">
     <a href="" alt="">
-        <img src="https://img.shields.io/github/commit-activity/m/PolySummit/awesome-3d-reconstruction-and-generation?colorB=b74e45" /></a>
+        <img src="https://img.shields.io/github/commit-activity/m/PolySummit/Awesome-3D-Reconstruction-and-Generation?colorB=b74e45" /></a>
     <a href="" alt="">
-        <img src="https://img.shields.io/github/last-commit/PolySummit/awesome-3d-reconstruction-and-generation?colorB=54b345" /></a>
+        <img src="https://img.shields.io/github/last-commit/PolySummit/Awesome-3D-Reconstruction-and-Generation?colorB=54b345" /></a>
     <a href="" alt="">
         <img src="https://visitor-badge.laobi.icu/badge?page_id=PolySummit.awesome-3d-reconstruction-and-generation?style=flat-square" /></a>
 </p>
