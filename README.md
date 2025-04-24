@@ -13,14 +13,15 @@
 
 :heart: Pull requests or issues for updates are very welcome.
 
-## Contents
+## 📑 Contents
 - [🧊 3D Reconstruction](#reconstruction)
     - [Feedforward Recon](#reconstruction-class1)
-    - [Few Shot generated Recon](#reconstruction-class2)
+    - [Few-Shot Generated Recon](#reconstruction-class2)
 - [🧸 Physical Object Generation](#physics)
 - [🤖 Articulated Object Generation and Reconstruction](#articulate)
 - [🏠 Indoor Scene Layout Generation](#layout)
 - [🕺 Human Motion Generation](#human-motion)
+- [🌟 Star History](#star)
 
 
 ## <span id="reconstruction">🧊 3D Reconstruction</span>
@@ -42,7 +43,7 @@
 | [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/pdf/2312.14132) | 12/2023 |  [code](https://github.com/naver/dust3r)  | CVPR 2024 |
 
 
-### <span id="reconstruction-class2">Few Shot generated Recon</span>
+### <span id="reconstruction-class2">Few-Shot Generated Recon</span>
 | Title                                                        | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
 | [GenFusion: Closing the Loop between Reconstruction and Generation via Videos](https://arxiv.org/pdf/2503.21219) | 03/2025 | [code](https://github.com/Inception3D/GenFusion) | CVPR 2025 |
@@ -61,15 +62,15 @@
 | [SOPHY: Generating Simulation-Ready Objects with PHYsical Materials](https://arxiv.org/pdf/2504.12684) | 04/2025 |  [project](https://xjay18.github.io/SOPHY/)  | arXiv |
 
 
-
 ## <span id="articulate">🤖 Articulated Object Generation and Reconstruction</span>
 | Title                                                        | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
-| [CAGE: Controllable Articulation GEneration](https://arxiv.org/abs/2312.09570v2) | 03/2024 |  [code](https://github.com/3dlg-hcvc/cage)  | CVPR 2024 |
 | [Infinite Mobility: Scalable High-Fidelity Synthesis of Articulated Objects via Procedural Generation](https://arxiv.org/abs/2503.13424) | 03/2025 |  [code](https://github.com/OpenRobotLab/Infinite-Mobility)  | arXiv |
 | [Articulate AnyMesh: Open-Vocabulary 3D Articulated Objects Modeling](https://arxiv.org/abs/2502.02590) | 02/2025 |  [project](https://articulate-anymesh.github.io/)  | arXiv |
-| [ARTICULATE-ANYTHING: AUTOMATIC MODELING OF ARTICULATED OBJECTS VIA A VISION-LANGUAGE FOUNDATION MODEL](https://arxiv.org/abs/2410.13882) | 10/2024 | [code](https://github.com/vlongle/articulate-anything) | ICLR 2025 |
+| [Articulate-Anything: Automatic Modeling of Articulated Objects via a Vision-Language Foundation Model](https://arxiv.org/abs/2410.13882) | 10/2024 | [code](https://github.com/vlongle/articulate-anything) | ICLR 2025 |
 | [SINGAPO: Single Image Controlled Generation of Articulated Parts in Objects](https://arxiv.org/abs/2410.16499) | 10/2024 | [code](https://github.com/3dlg-hcvc/singapo) | ICLR 2025 |
+| [CAGE: Controllable Articulation GEneration](https://arxiv.org/abs/2312.09570v2) | 03/2024 |  [code](https://github.com/3dlg-hcvc/cage)  | CVPR 2024 |
+
 
 ## <span id="layout">🏠 Indoor Scene Layout Generation</span>
 | Title                                                        | Date   |                             Link                             | Venue |
@@ -78,9 +79,16 @@
 | [paper title](link) | 01/2025 |  [project](link)  | CVPR 2025 |
 | [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/pdf/2312.14132) | 06/2024 |  [code](https://github.com/naver/dust3r)  | CVPR 2024 |
 
+
 ## <span id="human-motion">🕺 Human Motion Generation</span>
 | Title                                                        | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
 | [paper title](link) | 03/2025 |  [code](link)  | arXiv |
 | [paper title](link) | 01/2025 |  [project](link)  | CVPR 2025 |
 | [Human-Object Interaction from Human-Level Instructions](https://arxiv.org/pdf/2406.17840) | 12/2024 |  [project](https://hoifhli.github.io/)  | arXiv |
+
+
+## <span id="star">🌟 Star History</span>
+
+[![Star History Chart](https://api.star-history.com/svg?repos=polysummit/Awesome-3D-Reconstruction-and-Generation&type=Date)](https://star-history.com/#polysummit/Awesome-3D-Reconstruction-and-Generation&Date)
+
