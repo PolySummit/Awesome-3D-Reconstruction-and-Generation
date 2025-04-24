@@ -98,6 +98,15 @@
 ## <span id="layout">🏠 Indoor Scene Layout Generation</span>
 | Title                                                        | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
+| [LAYOUTVLM: Differentiable Optimization of 3D Layout via Vision-Language Models](https://arxiv.org/pdf/2412.02193) | 12/2024 |  [project](https://ai.stanford.edu/~sunfanyun/layoutvlm/)  | CVPR 2025 |
+| [LLplace: The 3D Indoor Scene Layout Generation and Editing via Large Language Model](https://arxiv.org/abs/2406.03866) | 06/2024 |  [project]()  | arXiv |
+| [EchoScene: Indoor Scene Generation via Information Echo over Scene Graph Diffusion](https://arxiv.org/abs/2405.00915) | 05/2024 |  [code](https://github.com/ymxlzgy/echoscene)  | ECCV 2024 |
+| [I-Design: Personalized LLM Interior Designer](https://arxiv.org/abs/2404.02838) | 04/2024 |  [code](https://github.com/atcelen/IDesign)  | arXiv |
+| [InstructScene: Instruction-Driven 3D Indoor Scene Synthesis with Semantic Graph Prior](https://arxiv.org/pdf/2402.04717) | 02/2024 |  [code](https://github.com/chenguolin/InstructScene)  | ICLR 2024 |
+| [Holodeck: Language Guided Generation of 3D Embodied AI Environments](https://arxiv.org/abs/2312.09067) | 12/2023 |  [code](https://github.com/allenai/Holodeck)  | CVPR 2024 |
+| [LayoutGPT: Compositional Visual Planning and Generation with Large Language Models](https://arxiv.org/abs/2305.15393) | 05/2023 |  [code](https://github.com/weixi-feng/LayoutGPT)  | arXiv |
+| [DiffuScene: Denoising Diffusion Models for Generative Indoor Scene Synthesis](https://arxiv.org/pdf/2303.14207) | 03/2023 |  [code](https://github.com/tangjiapeng/DiffuScene)  | CVPR 2024 |
+| [ATISS: Autoregressive Transformers for Indoor Scene Synthesis](https://arxiv.org/pdf/2110.03675) | 10/2021 |  [code](https://github.com/nv-tlabs/ATISS)  | NeurIPS 2021 |
 
 
 ## <span id="star">🌟 Star History</span>
