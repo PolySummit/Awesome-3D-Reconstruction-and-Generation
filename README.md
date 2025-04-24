@@ -2,11 +2,11 @@
 
 <p align="center">
     <a href="" alt="">
-        <img src="https://img.shields.io/github/commit-activity/m/polysummit/awesome-3d-reconstruction-and-generation?colorB=b74e45" /></a>
+        <img src="https://img.shields.io/github/commit-activity/m/PolySummit/awesome-3d-reconstruction-and-generation?colorB=b74e45" /></a>
     <a href="" alt="">
-        <img src="https://img.shields.io/github/last-commit/polysummit/awesome-3d-reconstruction-and-generation?colorB=54b345" /></a>
+        <img src="https://img.shields.io/github/last-commit/PolySummit/awesome-3d-reconstruction-and-generation?colorB=54b345" /></a>
     <a href="" alt="">
-        <img src="https://visitor-badge.laobi.icu/badge?page_id=polysummit.awesome-3d-reconstruction-and-generation?style=flat-square" /></a>
+        <img src="https://visitor-badge.laobi.icu/badge?page_id=PolySummit.awesome-3d-reconstruction-and-generation?style=flat-square" /></a>
 </p>
 
 🌟 A curate list of papers, datasets, and projects for 3D Reconstruction and Generation.
@@ -19,8 +19,9 @@
     - [Few-Shot Generated Recon](#reconstruction-class2)
 - [🧸 Physical Object Generation](#physics)
 - [🤖 Articulated Object Generation and Reconstruction](#articulate)
-- [🏠 Indoor Scene Layout Generation](#layout)
 - [🕺 Human Motion Generation](#human-motion)
+    - [Human-Scene Interaction](#human-motion-class1)
+- [🏠 Indoor Scene Layout Generation](#layout)
 - [🌟 Star History](#star)
 
 
@@ -80,14 +81,6 @@
 | [CAGE: Controllable Articulation GEneration](https://arxiv.org/abs/2312.09570v2) | 03/2024 |  [code](https://github.com/3dlg-hcvc/cage)  | CVPR 2024 |
 
 
-## <span id="layout">🏠 Indoor Scene Layout Generation</span>
-| Title                                                        | Date   |                             Link                             | Venue |
-| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
-| [paper title](link) | 03/2025 |  [code](link)  | arXiv |
-| [paper title](link) | 01/2025 |  [project](link)  | CVPR 2025 |
-| [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/pdf/2312.14132) | 06/2024 |  [code](https://github.com/naver/dust3r)  | CVPR 2024 |
-
-
 ## <span id="human-motion">🕺 Human Motion Generation</span>
 
 ### <span id="human-motion-class1">Human-Scene Interaction</span>
@@ -99,11 +92,15 @@
 | [Generating Human Motion in 3D Scenes from Text Descriptions](https://arxiv.org/abs/2405.07784) | 05/2024 |  [code](https://github.com/zju3dv/text_scene_motion)  | CVPR 2024 |
 | [Generating Human Interaction Motions in Scenes with Text Control](https://arxiv.org/abs/2404.10685) | 04/2024 |  [code](https://github.com/nv-tlabs/tesmo)  | ECCV 2024 |
 | [Controllable Human-Object Interaction Synthesis](https://arxiv.org/abs/2312.03913) | 12/2023 |  [code](https://github.com/lijiaman/chois_release)  | ECCV 2024 oral |
-| [HUMANISE: Language-conditioned Human Motion Generation in 3D Scenes](https://arxiv.org/abs/2210.09729) | 10/2022 |  [project](https://silverster98.github.io/HUMANISE/)  | NIPS 2022 |
+| [HUMANISE: Language-conditioned Human Motion Generation in 3D Scenes](https://arxiv.org/abs/2210.09729) | 10/2022 |  [project](https://silverster98.github.io/HUMANISE/)  | NeurIPS 2022 |
 
+
+## <span id="layout">🏠 Indoor Scene Layout Generation</span>
+| Title                                                        | Date   |                             Link                             | Venue |
+| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
 
 
 ## <span id="star">🌟 Star History</span>
 
-[![Star History Chart](https://api.star-history.com/svg?repos=polysummit/Awesome-3D-Reconstruction-and-Generation&type=Date)](https://star-history.com/#polysummit/Awesome-3D-Reconstruction-and-Generation&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=PolySummit/Awesome-3D-Reconstruction-and-Generation&type=Date)](https://star-history.com/#PolySummit/Awesome-3D-Reconstruction-and-Generation&Date)
 
