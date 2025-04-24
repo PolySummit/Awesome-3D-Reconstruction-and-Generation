@@ -60,13 +60,14 @@
 | Title                                                        | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
 | [SOPHY: Generating Simulation-Ready Objects with PHYsical Materials](https://arxiv.org/pdf/2504.12684) | 04/2025 |  [project](https://xjay18.github.io/SOPHY/)  | arXiv |
-| [DreamPhysics: Learning Physics-Based 3D Dynamics with Video Diffusion Priors](https://arxiv.org/abs/2406.01476)| 12/2024 |  [project](https://github.com/tyhuang0428/DreamPhysics)  | AAAI 2025 |
-| [PhysDreamer: Physics-Based Interaction with 3D Objects via Video Generation](https://arxiv.org/abs/2404.13026) | 10/2024 |  [project](https://physdreamer.github.io/)  | ECCV 2024 |
-| [GIC: Gaussian-Informed Continuum for Physical Property Identification and Simulation](https://arxiv.org/abs/2406.14927v3) | 10/2024 |  [project](https://jukgei.github.io/project/gic)  |NeurIPS 2024 |
-| [PhysGen: Rigid-Body Physics-Grounded Image-to-Video Generation](https://arxiv.org/abs/2409.18964)| 09/2024 |  [project](https://stevenlsw.github.io/physgen/)  | ECCV 2024 |
-| [Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians](https://arxiv.org/abs/2403.09434) | 07/2024 |  [project](https://zlicheng.com/spring_gaus/)  |ECCV 2024 |
-| [Sync4D: Video Guided Controllable Dynamics for Physics-Based 4D Generation](https://arxiv.org/abs/2405.16849)| 07/2024 |  [project](https://sync4dphys.github.io/)  | arxiv |
-| [Physics3D: Learning Physical Properties of 3D Gaussians via Video Diffusion](https://arxiv.org/abs/2406.04338)| 06/2024 |  [project](https://liuff19.github.io/Physics3D/)  | arxiv |
+| [PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos](https://arxiv.org/abs/2503.17973)| 03/2025 |  [code](https://github.com/Jianghanxiao/PhysTwin)  | arXiv |
+| [DreamPhysics: Learning Physics-Based 3D Dynamics with Video Diffusion Priors](https://arxiv.org/abs/2406.01476)| 12/2024 |  [code](https://github.com/tyhuang0428/DreamPhysics)  | AAAI 2025 |
+| [PhysDreamer: Physics-Based Interaction with 3D Objects via Video Generation](https://arxiv.org/abs/2404.13026) | 10/2024 |  [code](https://github.com/a1600012888/PhysDreamer)  | ECCV 2024 |
+| [GIC: Gaussian-Informed Continuum for Physical Property Identification and Simulation](https://arxiv.org/abs/2406.14927v3) | 10/2024 |  [code](https://github.com/Jukgei/gic)  |NeurIPS 2024 |
+| [PhysGen: Rigid-Body Physics-Grounded Image-to-Video Generation](https://arxiv.org/abs/2409.18964)| 09/2024 |  [code](https://github.com/stevenlsw/physgen)  | ECCV 2024 |
+| [Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians](https://arxiv.org/abs/2403.09434) | 07/2024 |  [code](https://github.com/Colmar-zlicheng/Spring-Gaus)  |ECCV 2024 |
+| [Sync4D: Video Guided Controllable Dynamics for Physics-Based 4D Generation](https://arxiv.org/abs/2405.16849)| 07/2024 |  [project](https://sync4dphys.github.io/)  | arXiv |
+| [Physics3D: Learning Physical Properties of 3D Gaussians via Video Diffusion](https://arxiv.org/abs/2406.04338)| 06/2024 |  [code](https://liuff19.github.io/Physics3D/)  | arXiv |
 
 
 ## <span id="articulate">🤖 Articulated Object Generation and Reconstruction</span>
