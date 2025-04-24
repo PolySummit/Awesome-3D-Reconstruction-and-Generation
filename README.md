@@ -18,7 +18,7 @@
     - [Feedforward Recon](#reconstruction-class1)
     - [Few Shot generated Recon](#reconstruction-class2)
 - [🧸 Physical Object Generation](#physics)
-- [🤖 Articulated Object Generation](#articulate)
+- [🤖 Articulated Object Generation and Reconstruction](#articulate)
 - [🏠 Indoor Scene Layout Generation](#layout)
 - [🕺 Human Motion Generation](#human-motion)
 
@@ -57,12 +57,14 @@
 
 
 
-## <span id="articulate">🤖 Articulated Object Generation</span>
+## <span id="articulate">🤖 Articulated Object Generation and Reconstruction</span>
 | Title                                                        | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
-| [paper title](link) | 03/2025 |  [code](link)  | arXiv |
-| [paper title](link) | 01/2025 |  [project](link)  | CVPR 2025 |
-| [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/pdf/2312.14132) | 06/2024 |  [code](https://github.com/naver/dust3r)  | CVPR 2024 |
+| [CAGE: Controllable Articulation GEneration]([[2312.09570v2\] CAGE: Controllable Articulation GEneration](https://arxiv.org/abs/2312.09570v2)) | 03/2024 |  [code]([3dlg-hcvc/cage: [CVPR 2024\] Official Implementation of the paper "CAGE: Controllable Articulation GEneration"](https://github.com/3dlg-hcvc/cage))  | CVPR 2024 |
+| [Infinite Mobility: Scalable High-Fidelity Synthesis of Articulated Objects via Procedural Generation]([[2503.13424\] Infinite Mobility: Scalable High-Fidelity Synthesis of Articulated Objects via Procedural Generation](https://arxiv.org/abs/2503.13424)) | 03/2025 |  [code](l[OpenRobotLab/Infinite-Mobility](https://github.com/OpenRobotLab/Infinite-Mobility))  | arXiv |
+| [Articulate AnyMesh: Open-Vocabulary 3D Articulated Objects Modeling]([[2502.02590\] Articulate AnyMesh: Open-Vocabulary 3D Articulated Objects Modeling](https://arxiv.org/abs/2502.02590)) | 02/2025 |  [project](https://articulate-anymesh.github.io/)  | arXiv |
+| [ARTICULATE-ANYTHING: AUTOMATIC MODELING OF ARTICULATED OBJECTS VIA A VISION-LANGUAGE FOUNDATION MODEL]([[2410.13882\] Articulate-Anything: Automatic Modeling of Articulated Objects via a Vision-Language Foundation Model](https://arxiv.org/abs/2410.13882)) | 10/2024 | [code]([vlongle/articulate-anything: [ICLR 2025\] Official implementation of Articulate-Anything](https://github.com/vlongle/articulate-anything)) | ICLR 2025 |
+| [SINGAPO: Single Image Controlled Generation of Articulated Parts in Objects]([[2410.16499\] SINGAPO: Single Image Controlled Generation of Articulated Parts in Objects](https://arxiv.org/abs/2410.16499)) | 10/2024 | [code]([3dlg-hcvc/singapo: [ICLR 2025\] SINGAPO: Single Image Controlled Generation of Articulated Parts in Objects](https://github.com/3dlg-hcvc/singapo)) | ICLR 2025 |
 
 ## <span id="layout">🏠 Indoor Scene Layout Generation</span>
 | Title                                                        | Date   |                             Link                             | Venue |
