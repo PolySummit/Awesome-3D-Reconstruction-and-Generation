@@ -5,15 +5,13 @@
         <img src="https://img.shields.io/github/commit-activity/m/PolySummit/Awesome-3D-Reconstruction-and-Generation?colorB=b74e45" /></a>
     <a href="" alt="">
         <img src="https://img.shields.io/github/last-commit/PolySummit/Awesome-3D-Reconstruction-and-Generation?colorB=54b345" /></a>
-    <a href="" alt="">
-        <img src="https://visitor-badge.laobi.icu/badge?page_id=PolySummit.awesome-3d-reconstruction-and-generation?style=flat-square" /></a>
 </p>
 
 🌟 A curate list of papers, datasets, and projects for 3D Reconstruction and Generation.
 
 :heart: Pull requests or issues for updates are very welcome.
 
-## 📑 Contents
+## 📖 Contents
 - [🧊 3D Reconstruction](#reconstruction)
     - [Feedforward Recon](#reconstruction-class1)
     - [Few-Shot Generated Recon](#reconstruction-class2)
