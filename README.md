@@ -25,16 +25,6 @@
 
 ## <span id="reconstruction">🧊 3D Reconstruction</span>
 
-### <span id="reconstruction-class0">3D Recon-based SLAM & SFM</span>
-| Title                                                        | Date   |                             Link                             | Venue |
-| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
-| [MP-SfM: Monocular Surface Priors for Robust Structure-from-Motion](https://arxiv.org/pdf/2504.20040v1) |  04/2025 | [code](https://github.com/cvg/mpsfm) | CVPR 2025 |
-| [MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors](https://arxiv.org/pdf/2412.12392) |  12/2024 | [code](https://github.com/rmurai0610/MASt3R-SLAM) | CVPR 2025 |
-| [SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos](https://arxiv.org/pdf/2412.09401) |  12/2024 | [code](https://github.com/PKU-VCL-3DV/SLAM3R) | CVPR 2025 |
-| [MASt3R-SfM: a Fully-Integrated Solution for Unconstrained Structure-from-Motion](https://arxiv.org/abs/2409.19152) |  09/2024 | [code](https://github.com/naver/mast3r/tree/mast3r_sfm) | CVPR 2025 |
-
-
-
 ### <span id="reconstruction-class1">Feedforward Recon</span>
 | Title                                                        | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
@@ -63,6 +53,13 @@
 | [ViewCrafter: Taming Video Diffusion Models for High-fidelity Novel View Synthesis](https://arxiv.org/abs/2409.02048) | 09/2024 | [code](https://drexubery.github.io/ViewCrafter/) | arXiv |
 | [ReconX: Reconstruct Any Scene from Sparse Views with Video Diffusion Model](https://arxiv.org/abs/2408.16767) | 08/2024 |  | arXiv |
 
+### <span id="reconstruction-class3">3D Recon-based SLAM & SFM</span>
+| Title                                                        | Date   |                             Link                             | Venue |
+| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
+| [MP-SfM: Monocular Surface Priors for Robust Structure-from-Motion](https://arxiv.org/pdf/2504.20040v1) |  04/2025 | [code](https://github.com/cvg/mpsfm) | CVPR 2025 |
+| [MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors](https://arxiv.org/pdf/2412.12392) |  12/2024 | [code](https://github.com/rmurai0610/MASt3R-SLAM) | CVPR 2025 |
+| [SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos](https://arxiv.org/pdf/2412.09401) |  12/2024 | [code](https://github.com/PKU-VCL-3DV/SLAM3R) | CVPR 2025 |
+| [MASt3R-SfM: a Fully-Integrated Solution for Unconstrained Structure-from-Motion](https://arxiv.org/abs/2409.19152) |  09/2024 | [code](https://github.com/naver/mast3r/tree/mast3r_sfm) | CVPR 2025 |
 
 ## <span id="physics">🧸 Physical Object Generation</span>
 | Title                                                        | Date   |                             Link                             | Venue |
