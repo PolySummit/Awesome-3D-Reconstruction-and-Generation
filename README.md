@@ -25,6 +25,16 @@
 
 ## <span id="reconstruction">🧊 3D Reconstruction</span>
 
+### <span id="reconstruction-class0">3D Recon-based SLAM & SFM</span>
+| Title                                                        | Date   |                             Link                             | Venue |
+| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
+| [MP-SfM: Monocular Surface Priors for Robust Structure-from-Motion](https://arxiv.org/pdf/2504.20040v1) |  04/2025 | [code](https://github.com/cvg/mpsfm) | CVPR 2025 |
+| [MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors](https://arxiv.org/pdf/2412.12392) |  12/2024 | [code](https://github.com/rmurai0610/MASt3R-SLAM) | CVPR 2025 |
+| [SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos](https://arxiv.org/pdf/2412.09401) |  12/2024 | [code](https://github.com/PKU-VCL-3DV/SLAM3R) | CVPR 2025 |
+| [MASt3R-SfM: a Fully-Integrated Solution for Unconstrained Structure-from-Motion](https://arxiv.org/abs/2409.19152) |  09/2024 | [code](https://github.com/naver/mast3r/tree/mast3r_sfm) | CVPR 2025 |
+
+
+
 ### <span id="reconstruction-class1">Feedforward Recon</span>
 | Title                                                        | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
@@ -34,7 +44,6 @@
 | [FLARE: Feed-forward Geometry, Appearance and Camera Estimation from Uncalibrated Sparse Views](https://arxiv.org/pdf/2502.12138) |  02/2025 | [code](https://github.com/ant-research/FLARE) | CVPR 2025 |
 | [Fast3R: Towards 3D Reconstruction of 1000+ Images in One Forward Pass](https://arxiv.org/abs/2501.13928) |  01/2025 | [code](https://github.com/facebookresearch/fast3r) | CVPR 2025 |
 | [Continuous 3D Perception Model with Persistent State](https://arxiv.org/pdf/2501.12387) |  01/2025 | [code](https://github.com/CUT3R/CUT3R) | CVPR 2025 |
-| [SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos](https://arxiv.org/pdf/2412.09401) |  12/2024 | [code](https://github.com/PKU-VCL-3DV/SLAM3R) | CVPR 2025 |
 | [Reloc3r: Large-Scale Training of Relative Camera Pose Regression for Generalizable, Fast, and Accurate Visual Localization](https://arxiv.org/pdf/2412.08376) |  12/2024 | [code](https://github.com/ffrivera0/reloc3r) | CVPR 2025 |
 | [MV-DUSt3R+: Single-Stage Scene Reconstruction from Sparse Views In 2 Seconds](https://arxiv.org/pdf/2412.06974) | 12/2024 | [code](https://github.com/facebookresearch/mvdust3r) | CVPR 2025 |
 | [3D Reconstruction with Spatial Memory](https://arxiv.org/abs/2408.16061) | 08/2024 |  [code](https://github.com/HengyiWang/spann3r)  | 3DV 2025 |
