@@ -15,7 +15,7 @@
 - [🧊 3D Reconstruction](#reconstruction)
     - [Feedforward Recon](#reconstruction-class1)
     - [Few-Shot Generated Recon](#reconstruction-class2)
-    - [3D Recon-based SLAM & SFM](#3d-recon-based-slam--sfm)
+    - [3D Recon-based SLAM & SFM](#reconstruction-class3)
 - [🧸 Physical Object Generation](#physics)
 - [🤖 Articulated Object Generation and Reconstruction](#articulate)
 - [🕺 Human Motion Generation](#human-motion)
