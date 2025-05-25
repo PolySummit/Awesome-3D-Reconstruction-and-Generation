@@ -29,6 +29,7 @@
 ### <span id="reconstruction-class1">Feedforward Recon</span>
 | Title                                                        | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
+| [MonoSplat: Generalizable 3D Gaussian Splatting from Monocular Depth Foundation Models](https://arxiv.org/pdf/2505.15185) |  05/2025 | [code](https://github.com/CUHK-AIM-Group/MonoSplat) | CVPR 2025 |
 | [VGGT:Visual Geometry Grounded Transformer](https://arxiv.org/pdf/2503.11651) |  03/2025 | [code](https://github.com/facebookresearch/vggt) | CVPR 2025 |
 | [MUSt3R: Multi-view Network for Stereo 3D Reconstruction](https://www.arxiv.org/abs/2503.01661) |  03/2025 |  | CVPR 2025 |
 | [Pow3R: Empowering Unconstrained 3D Reconstruction with Camera and Scene Priors](https://arxiv.org/abs/2503.17316) |  03/2025 |  | CVPR 2025 |
