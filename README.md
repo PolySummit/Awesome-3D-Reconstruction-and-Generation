@@ -104,6 +104,7 @@
 ## <span id="layout">🏠 Indoor Scene Layout Generation</span>
 | Title                                                        | Date   |                             Link                             | Venue |
 | :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
+| [LLM-driven Indoor Scene Layout Generation via Scaled Human-aligned Data Synthesis and Multi-Stage Preference Optimization](https://arxiv.org/abs/2506.07570) | 06/2025 |  [project](https://polysummit.github.io/optiscene.github.io/)  | arXiv |
 | [LAYOUTVLM: Differentiable Optimization of 3D Layout via Vision-Language Models](https://arxiv.org/pdf/2412.02193) | 12/2024 |  [project](https://ai.stanford.edu/~sunfanyun/layoutvlm/)  | CVPR 2025 |
 | [LLplace: The 3D Indoor Scene Layout Generation and Editing via Large Language Model](https://arxiv.org/abs/2406.03866) | 06/2024 |  [project]()  | arXiv |
 | [EchoScene: Indoor Scene Generation via Information Echo over Scene Graph Diffusion](https://arxiv.org/abs/2405.00915) | 05/2024 |  [code](https://github.com/ymxlzgy/echoscene)  | ECCV 2024 |
