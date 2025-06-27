@@ -115,6 +115,11 @@
 | [DiffuScene: Denoising Diffusion Models for Generative Indoor Scene Synthesis](https://arxiv.org/pdf/2303.14207) | 03/2023 |  [code](https://github.com/tangjiapeng/DiffuScene)  | CVPR 2024 |
 | [ATISS: Autoregressive Transformers for Indoor Scene Synthesis](https://arxiv.org/pdf/2110.03675) | 10/2021 |  [code](https://github.com/nv-tlabs/ATISS)  | NeurIPS 2021 |
 
+## <span id="layout">🏠 Any-to-3D Scene</span>
+| Title                                                        | Date   |                             Link                             | Venue |
+| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
+| [CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image](https://arxiv.org/abs/2502.12894) | 06/2025 | -  | SIGGRAPH (Best paper) |
+
 
 ## <span id="star">🌟 Star History</span>
 
