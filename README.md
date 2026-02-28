@@ -30,151 +30,508 @@
 ## <span id="reconstruction">🧊 3D Reconstruction</span>
 
 ### <span id="reconstruction-class1">Feedforward Recon</span>
-| Title                                                        | Date   |                             Link                             | Venue |
-| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
-| [Emergent Extreme-View Geometry in 3D Foundation Models](https://arxiv.org/abs/2411.18311) | 11/2025 | [project](https://ext-3dfms.github.io/) | CVPR 2026 |
-| [Emergent Outlier View Rejection in Visual Geometry Grounded Transformers](https://arxiv.org/abs/2512.04012) | 12/2025 | [project](https://cvlab-kaist.github.io/RobustVGGT) | CVPR 2026 |
-| [AMB3R: Accurate Feed-forward Metric-scale 3D Reconstruction with Backend](https://arxiv.org/abs/2411.17851) | 11/2025 | [project](https://hengyiwang.github.io/projects/amber) | CVPR 2026 |
-| [Depth Anything 3: Recovering the Visual Space from Any Views](https://arxiv.org/abs/2511.10647) | 11/2025 | [project](https://depth-anything-3.github.io/) | ICLR 2026 |
-| [Dens3R: A Foundation Model for 3D Geometry Prediction](https://arxiv.org/abs/2505.15011) | 2025 |  | ICLR 2026 |
-| [WorldMirror: Universal 3D World Reconstruction with Any-Prior Prompting](https://arxiv.org/abs/2510.09015) | 10/2025 |  | arXiv |
-| [PAGE-4D: Disentangled Pose and Geometry for 4D Perception](https://arxiv.org/abs/2510.17568) | 10/2025 |  | ICLR 2026 |
-| [DriveVGGT: Visual Geometry Transformer for Autonomous Driving](https://arxiv.org/abs/2511.18108) | 11/2025 |  | ECCV 2025 |
-| [π3: Scalable Permutation-Equivariant Visual Geometry Learning](https://arxiv.org/abs/2507.00613) | 07/2025 |  | CVPR 2025 |
-| [BoxFusion: Reconstruction-Free Open-Vocabulary 3D Object Detection](https://arxiv.org/abs/2506.14736) | 06/2025 |  | arXiv |
-| [Depth Anything with Any Prior](https://arxiv.org/abs/2505.17535) | 05/2025 | [project](https://prior-depth-anything.github.io/) | ICML 2025 |
-| [MonoSplat: Generalizable 3D Gaussian Splatting from Monocular Depth Foundation Models](https://arxiv.org/pdf/2505.15185) |  05/2025 | [code](https://github.com/CUHK-AIM-Group/MonoSplat) | CVPR 2025 |
-| [VGGT:Visual Geometry Grounded Transformer](https://arxiv.org/pdf/2503.11651) |  03/2025 | [code](https://github.com/facebookresearch/vggt) | CVPR 2025 |
-| [MUSt3R: Multi-view Network for Stereo 3D Reconstruction](https://www.arxiv.org/abs/2503.01661) |  03/2025 |  | CVPR 2025 |
-| [Pow3R: Empowering Unconstrained 3D Reconstruction with Camera and Scene Priors](https://arxiv.org/abs/2503.17316) |  03/2025 |  | CVPR 2025 |
-| [FLARE: Feed-forward Geometry, Appearance and Camera Estimation from Uncalibrated Sparse Views](https://arxiv.org/pdf/2502.12138) |  02/2025 | [code](https://github.com/ant-research/FLARE) | CVPR 2025 |
-| [EquiPose: Exploiting Permutation Equivariance for Relative Camera Pose Estimation](https://arxiv.org/abs/2502.09435) | 02/2025 |  | CVPR 2025 |
-| [RePoseD: Efficient Relative Pose Estimation With Known Depth Information](https://arxiv.org/abs/2501.12345) | 01/2025 |  | ICCV 2025 |
-| [Fast3R: Towards 3D Reconstruction of 1000+ Images in One Forward Pass](https://arxiv.org/abs/2501.13928) |  01/2025 | [code](https://github.com/facebookresearch/fast3r) | CVPR 2025 |
-| [Continuous 3D Perception Model with Persistent State](https://arxiv.org/pdf/2501.12387) |  01/2025 | [code](https://github.com/CUT3R/CUT3R) | CVPR 2025 (Oral) |
-| [Reloc3r: Large-Scale Training of Relative Camera Pose Regression for Generalizable, Fast, and Accurate Visual Localization](https://arxiv.org/pdf/2412.08376) |  12/2024 | [code](https://github.com/ffrivera0/reloc3r) | CVPR 2025 |
-| [MV-DUSt3R+: Single-Stage Scene Reconstruction from Sparse Views In 2 Seconds](https://arxiv.org/pdf/2412.06974) | 12/2024 | [code](https://github.com/facebookresearch/mvdust3r) | CVPR 2025 |
-| [Relative Pose Estimation through Affine Corrections of Monocular Depth Priors](https://arxiv.org/abs/2412.12345) | 12/2024 | [code](https://github.com/MarkYu98/madpose) | CVPR 2025 |
-| [Understanding multi-view transformers](https://arxiv.org/abs/2412.12345) | 2025 | [code](https://github.com/JulienGaubil/und3rstand) | ICCV 2025 |
-| [Peering into the Unknown: Active View Selection for 3D Reconstruction](https://arxiv.org/abs/2412.12345) | 2025 |  | ICLR 2026 |
-| [3D Reconstruction with Spatial Memory](https://arxiv.org/abs/2408.16061) | 08/2024 |  [code](https://github.com/HengyiWang/spann3r)  | 3DV 2025 |
-| [Grounding Image Matching in 3D with MASt3R](https://arxiv.org/abs/2406.09756) | 06/2024 |  [code](https://github.com/naver/mast3r)  | Arxiv 2024 |
-| [UniDepthV2: Universal Monocular Metric Depth Estimation](https://arxiv.org/abs/2406.09414) | 06/2024 |  | CVPR 2024 |
-| [DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/pdf/2312.14132) | 12/2023 |  [code](https://github.com/naver/dust3r)  | CVPR 2024 |
-| [RaCalNet: Radar Calibration Network for Sparse-Supervised Metric Depth Estimation](https://arxiv.org/abs/2506.15560) | 06/2025 |  | arXiv |
+- **[Emergent Extreme-View Geometry in 3D Foundation Models](https://arxiv.org/abs/2411.18311)** — 11/2025 | **CVPR 2026** | [project](https://ext-3dfms.github.io/)
 
+  <details>
+  <summary>Abstract</summary>
+
+  3D foundation models (3DFMs) have recently transformed 3D vision, enabling joint prediction of depths, poses, and point maps directly from images. Yet their ability to rea- son under extreme, non-overlapping views remains largely unexplored. In this work, we study their internal repre- sentations and find that 3DFMs exhibit an emergent un- derstanding of extreme-view geometry, despite never being trained for such conditions. To further enhance these capa- bilities, we introduce a lightweight alignment scheme that refines their internal 3D representation by tuning only a small subset of backbone bias terms, leaving all decoder heads frozen. This targeted adaptation substantially im- proves relative pose estimation under extreme viewpoints without degrading per-image depth or point quality.
+
+  </details>
+
+- **[Emergent Outlier View Rejection in Visual Geometry Grounded Transformers](https://arxiv.org/abs/2512.04012)** — 12/2025 | **CVPR 2026** | [project](https://cvlab-kaist.github.io/RobustVGGT)
+
+  <details>
+  <summary>Abstract</summary>
+
+  Reliable 3D reconstruction from in-the-wild image collec- tions is often hindered by “noisy” images—irrelevant in- puts with little or no view overlap with others. While tra- ditional Structure-from-Motion pipelines handle such cases through geometric verification and outlier rejection, feed- forward 3D reconstruction models lack these explicit mech- anisms, leading to degraded performance under in-the-wild conditions. In this paper, we discover that the existing feed- forward reconstruction model, e.g., VGGT, despite lacking explicit outlier-rejection mechanisms or noise-aware train- ing, can inherently distinguish distractor images.
+
+  </details>
+
+- **[AMB3R: Accurate Feed-forward Metric-scale 3D Reconstruction with Backend](https://arxiv.org/abs/2411.17851)** — 11/2025 | **CVPR 2026** | [project](https://hengyiwang.github.io/projects/amber)
+
+  <details>
+  <summary>Abstract</summary>
+
+  We present AMB3R, a multi-view feed-forward model for dense 3D reconstruction on a metric-scale that addresses diverse 3D vision tasks. The key idea is to leverage a sparse, yet compact, volumetric scene representation as our backend, enabling geometric reasoning with spatial compactness. Although trained solely for multi-view re- construction, we demonstrate that AMB3R can be seam- lessly extended to uncalibrated visual odometry (online) or large-scale structure from motion without the need for task- specific fine-tuning or test-time optimization.
+
+  </details>
+
+- **[Depth Anything 3: Recovering the Visual Space from Any Views](https://arxiv.org/abs/2511.10647)** — 11/2025 | **ICLR 2026** | [project](https://depth-anything-3.github.io/)
+
+  <details>
+  <summary>Abstract</summary>
+
+  We present Depth Anything 3 (DA3), a model that predicts spatially consistent geometry from an arbitrary number of visual inputs, with or without known camera poses. In pursuit of minimal modeling, DA3 yields two key insights: a single plain transformer (e.g., vanilla DINO encoder) is sufficient as a backbone without architectural specialization, and a singular depth-ray prediction target obviates the need for complex multi-task learning. Through our teacher-student training paradigm, the model achieves a level of detail and generalization on par with Depth Anything 2 (DA2). We establish a new visual geometry benchmark covering camera pose estimation, any-view geometry and visual rendering.
+
+  </details>
+
+- **[Dens3R: A Foundation Model for 3D Geometry Prediction](https://arxiv.org/abs/2505.15011)** — 2025 | **ICLR 2026**
+
+- **[WorldMirror: Universal 3D World Reconstruction with Any-Prior Prompting](https://arxiv.org/abs/2510.09015)** — 10/2025 | **arXiv**
+
+  <details>
+  <summary>Abstract</summary>
+
+  We present WorldMirror, an all-in-one, feed-forward model for versatile 3D geo- metric prediction tasks. Unlike existing methods constrained to image-only inputs or customized for a specific task, our framework flexibly integrates diverse geo- metric priors, including camera poses, intrinsics, and depth maps, while simulta- neously generating multiple 3D representations: dense point clouds, multi-view depth maps, camera parameters, surface normals, and 3D Gaussians. This elegant and unified architecture leverages available prior information to resolve structural ambiguities and delivers geometrically consistent 3D outputs in a single forward pass.
+
+  </details>
+
+- **[PAGE-4D: Disentangled Pose and Geometry for 4D Perception](https://arxiv.org/abs/2510.17568)** — 10/2025 | **ICLR 2026**
+
+  <details>
+  <summary>Abstract</summary>
+
+  Recent 3D feed-forward models, such as the Visual Geometry Grounded Trans- former (VGGT), have shown strong capability in inferring 3D attributes of static scenes. However, since they are typically trained on static datasets, these mod- els often struggle in real-world scenarios involving complex dynamic elements, such as moving humans or deformable objects like umbrellas. To address this limitation, we introduce PAGE-4D, a feedforward model that extends VGGT to dynamic scenes, enabling camera pose estimation, depth prediction and point cloud reconstruction —all without post-processing.
+
+  </details>
+
+- **[DriveVGGT: Visual Geometry Transformer for Autonomous Driving](https://arxiv.org/abs/2511.18108)** — 11/2025 | **ECCV 2025**
+
+  <details>
+  <summary>Abstract</summary>
+
+  Feed-forward reconstruction has recently gained significant attention, with VGGT being a notable example. However, directly applying VGGT to autonomous driving (AD) sys- tems leads to sub-optimal results due to the different priors between the two tasks. In AD systems, several important new priors need to be considered: (i) The overlap between camera views is minimal, as autonomous driving sensor se- tups are designed to achieve 360◦coverage at a low cost. (ii) The camera intrinsics and extrinsics are known, which introduces more constraints on the output and also enables the estimation of absolute scale. (iii) Relative positions of all cameras remain fixed though the ego vehicle is in motion.
+
+  </details>
+
+- **[π3: Scalable Permutation-Equivariant Visual Geometry Learning](https://arxiv.org/abs/2507.00613)** — 07/2025 | **CVPR 2025**
+
+  <details>
+  <summary>Abstract</summary>
+
+  We introduce π3, a feed-forward neural network that offers a novel approach to visual geometry reconstruction, breaking the reliance on a conventional fixed reference view. Previous methods often anchor their reconstructions to a designated viewpoint, an inductive bias that can lead to instability and failures if the reference is suboptimal. In contrast, π3 em- ploys a fully permutation-equivariant architecture to predict affine-invariant camera poses and scale-invariant local point maps without any reference frames. This design makes our model inherently robust to input ordering and highly scalable.
+
+  </details>
+
+- **[BoxFusion: Reconstruction-Free Open-Vocabulary 3D Object Detection](https://arxiv.org/abs/2506.14736)** — 06/2025 | **arXiv**
+
+  <details>
+  <summary>Abstract</summary>
+
+  Open-vocabulary 3D object detection has gained sig- nificant interest due to its critical applications in au- tonomous driving and embodied AI. Existing detection methods, whether offline or online, typically rely on dense point cloud reconstruction, which imposes substantial com- putational overhead and memory constraints, hindering real-time deployment in downstream tasks. To address this, we propose a novel reconstruction-free online framework tailored for memory-efficient and real-time 3D detection. Specifically, given streaming posed RGB-D video input, we leverage Cubify Anything as a pre-trained visual foundation model (VFM) for single-view 3D object detection by bound- ing boxes, coupled with CLIP to capture open-vocabulary semantics of detected objects.
+
+  </details>
+
+- **[Depth Anything with Any Prior](https://arxiv.org/abs/2505.17535)** — 05/2025 | **ICML 2025** | [project](https://prior-depth-anything.github.io/)
+
+  <details>
+  <summary>Abstract</summary>
+
+  This work presents Prior Depth Anything, a framework that combines incomplete but precise metric information in depth measurement with relative but complete geometric structures in depth prediction, generating accurate, dense, and detailed metric depth maps for any scene. To this end, we design a coarse-to-fine pipeline to progressively integrate the two complementary depth sources. First, we introduce pixel-level metric alignment and distance-aware weighting to pre-fill diverse metric priors by explicitly using depth prediction. It effectively narrows the domain gap be- tween prior patterns, enhancing generalization across vary- ing scenarios. Second, we develop a conditioned monoc- ular depth estimation (MDE) model to refine the inherent noise of depth priors.
+
+  </details>
+
+- **[MonoSplat: Generalizable 3D Gaussian Splatting from Monocular Depth Foundation Models](https://arxiv.org/pdf/2505.15185)** — 05/2025 | **CVPR 2025** | [code](https://github.com/CUHK-AIM-Group/MonoSplat)
+
+- **[VGGT:Visual Geometry Grounded Transformer](https://arxiv.org/pdf/2503.11651)** — 03/2025 | **CVPR 2025** | [code](https://github.com/facebookresearch/vggt)
+
+  <details>
+  <summary>Abstract</summary>
+
+  We present VGGT, a feed-forward neural network that di- rectly infers all key 3D attributes of a scene, including cam- era parameters, point maps, depth maps, and 3D point tracks, from one, a few, or hundreds of its views. This approach is a step forward in 3D computer vision, where models have typically been constrained to and special- ized for single tasks. It is also simple and efficient, re- constructing images in under one second, and still out- performing alternatives that require post-processing with visual geometry optimization techniques. The network achieves state-of-the-art results in multiple 3D tasks, in- cluding camera parameter estimation, multi-view depth es- timation, dense point cloud reconstruction, and 3D point tracking.
+
+  </details>
+
+- **[MUSt3R: Multi-view Network for Stereo 3D Reconstruction](https://www.arxiv.org/abs/2503.01661)** — 03/2025 | **CVPR 2025**
+
+- **[Pow3R: Empowering Unconstrained 3D Reconstruction with Camera and Scene Priors](https://arxiv.org/abs/2503.17316)** — 03/2025 | **CVPR 2025**
+
+- **[FLARE: Feed-forward Geometry, Appearance and Camera Estimation from Uncalibrated Sparse Views](https://arxiv.org/pdf/2502.12138)** — 02/2025 | **CVPR 2025** | [code](https://github.com/ant-research/FLARE)
+
+- **[EquiPose: Exploiting Permutation Equivariance for Relative Camera Pose Estimation](https://arxiv.org/abs/2502.09435)** — 02/2025 | **CVPR 2025**
+
+  <details>
+  <summary>Abstract</summary>
+
+  Relative camera pose estimation between two images is a fundamental task in 3D computer vision. Recently, many relative pose estimation networks have been explored for learning a mapping from two input images to their cor- responding relative pose, however, the estimated relative poses by these methods do not have the intrinsic Pose Per- mutation Equivariance (PPE) property: the estimated rel- ative pose from Image A to Image B should be the inverse of that from Image B to Image A. It means that permut- ing the input order of two images would cause these meth- ods to obtain inconsistent relative poses. To address this problem, we firstly introduce the concept of PPE mapping, which indicates such a mapping that captures the intrin- sic PPE property of relative poses.
+
+  </details>
+
+- **[RePoseD: Efficient Relative Pose Estimation With Known Depth Information](https://arxiv.org/abs/2501.12345)** — 01/2025 | **ICCV 2025**
+
+  <details>
+  <summary>Abstract</summary>
+
+  Recent advances in monocular depth estimation meth- ods (MDE) and their improved accuracy open new possibil- ities for their applications. In this paper, we investigate how monocular depth estimates can be used for relative pose es- timation. In particular, we are interested in answering the question whether using MDEs improves results over tradi- tional point-based methods. We propose a novel framework for estimating the relative pose of two cameras from point correspondences with associated monocular depths. Since depth predictions are typically defined up to an unknown scale or even both unknown scale and shift parameters, our solvers jointly estimate the scale or both the scale and shift parameters along with the relative pose.
+
+  </details>
+
+- **[Fast3R: Towards 3D Reconstruction of 1000+ Images in One Forward Pass](https://arxiv.org/abs/2501.13928)** — 01/2025 | **CVPR 2025** | [code](https://github.com/facebookresearch/fast3r)
+
+- **[Continuous 3D Perception Model with Persistent State](https://arxiv.org/pdf/2501.12387)** — 01/2025 | **CVPR 2025 (Oral)** | [code](https://github.com/CUT3R/CUT3R)
+
+  <details>
+  <summary>Abstract</summary>
+
+  We present a unified framework capable of solving a broad range of 3D tasks. Our approach features a stateful recurrent model that continuously updates its state representation with each new observation. Given a stream of images, this evolv- ing state can be used to generate metric-scale pointmaps (per-pixel 3D points) for each new input in an online fashion. These pointmaps reside within a common coordinate system, and can be accumulated into a coherent, dense scene re- construction that updates as new images arrive.
+
+  </details>
+
+- **[Reloc3r: Large-Scale Training of Relative Camera Pose Regression for Generalizable, Fast, and Accurate Visual Localization](https://arxiv.org/pdf/2412.08376)** — 12/2024 | **CVPR 2025** | [code](https://github.com/ffrivera0/reloc3r)
+
+- **[MV-DUSt3R+: Single-Stage Scene Reconstruction from Sparse Views In 2 Seconds](https://arxiv.org/pdf/2412.06974)** — 12/2024 | **CVPR 2025** | [code](https://github.com/facebookresearch/mvdust3r)
+
+- **[Relative Pose Estimation through Affine Corrections of Monocular Depth Priors](https://arxiv.org/abs/2412.12345)** — 12/2024 | **CVPR 2025** | [code](https://github.com/MarkYu98/madpose)
+
+  <details>
+  <summary>Abstract</summary>
+
+  Monocular depth estimation (MDE) models have under- gone significant advancements over recent years. Many MDE models aim to predict affine-invariant relative depth from monocular images, while recent developments in large-scale training and vision foundation models enable reasonable estimation of metric (absolute) depth. However, effectively leveraging these predictions for geometric vision tasks, in particular relative pose estimation, remains rela- tively under explored. While depths provide rich constraints for cross-view image alignment, the intrinsic noise and am- biguity from the monocular depth priors present practical challenges to improving upon classic keypoint-based so- lutions.
+
+  </details>
+
+- **[Understanding multi-view transformers](https://arxiv.org/abs/2412.12345)** — 2025 | **ICCV 2025** | [code](https://github.com/JulienGaubil/und3rstand)
+
+  <details>
+  <summary>Abstract</summary>
+
+  Multi-view transformers such as DUSt3R [59] are revolu- tionizing 3D vision by solving 3D tasks in a feed-forward manner. However, contrary to previous optimization-based pipelines, the inner mechanisms of multi-view transformers are unclear. Their black-box nature makes further improve- ments beyond data scaling challenging and complicates us- age in safety- and reliability-critical applications. Here, we present an approach for probing and visualizing 3D repre- sentations from the residual connections of the multi-view transformers’ layers.
+
+  </details>
+
+- **[Peering into the Unknown: Active View Selection for 3D Reconstruction](https://arxiv.org/abs/2412.12345)** — 2025 | **ICLR 2026**
+
+  <details>
+  <summary>Abstract</summary>
+
+  Imagine trying to understand the shape of a teapot by viewing it from the front—you might see the spout, but completely miss the handle. Some perspectives naturally provide more information than others. How can an AI system determine which viewpoint offers the most valuable insight for accurate and efficient 3D object reconstruction? Active view selection (AVS) for 3D reconstruction remains a fundamental challenge in computer vision. The aim is to identify the minimal set of views that yields the most accurate 3D reconstruction.
+
+  </details>
+
+- **[3D Reconstruction with Spatial Memory](https://arxiv.org/abs/2408.16061)** — 08/2024 | **3DV 2025** | [code](https://github.com/HengyiWang/spann3r)
+
+- **[Grounding Image Matching in 3D with MASt3R](https://arxiv.org/abs/2406.09756)** — 06/2024 | **Arxiv 2024** | [code](https://github.com/naver/mast3r)
+
+  <details>
+  <summary>Abstract</summary>
+
+  Image Matching is a core component of all best-performing algorithms and pipelines in 3D vision. Yet despite matching being fundamentally a 3D problem, intrinsically linked to camera pose and scene geometry, it is typically treated as a 2D problem. This makes sense as the goal of matching is to establish correspondences between 2D pixel fields, but also seems like a potentially hazardous choice. In this work, we take a different stance and propose to cast matching as a 3D task with DUSt3R, a recent and powerful 3D reconstruction framework based on Transformers. Based on pointmaps regression, this method displayed impressive robustness in matching views with extreme viewpoint changes, yet with limited accuracy.
+
+  </details>
+
+- **[UniDepthV2: Universal Monocular Metric Depth Estimation](https://arxiv.org/abs/2406.09414)** — 06/2024 | **CVPR 2024**
+
+- **[DUSt3R: Geometric 3D Vision Made Easy](https://arxiv.org/pdf/2312.14132)** — 12/2023 | **CVPR 2024** | [code](https://github.com/naver/dust3r)
+
+  <details>
+  <summary>Abstract</summary>
+
+  Multi-view stereo reconstruction (MVS) in the wild re- quires to first estimate the camera parameters e.g. intrinsic and extrinsic parameters. These are usually tedious and cumbersome to obtain, yet they are mandatory to triangu- late corresponding pixels in 3D space, which is the core of all best performing MVS algorithms. In this work, we take an opposite stance and introduce DUSt3R1, a radi- cally novel paradigm for Dense and Unconstrained Stereo 3D Reconstruction of arbitrary image collections, i.e. oper- ating without prior information about camera calibration nor viewpoint poses. We cast the pairwise reconstruction problem as a regression of pointmaps, relaxing the hard constraints of usual projective camera models. We show 1https://dust3r.europe.naverlabs.
+
+  </details>
+
+- **[RaCalNet: Radar Calibration Network for Sparse-Supervised Metric Depth Estimation](https://arxiv.org/abs/2506.15560)** — 06/2025 | **arXiv**
+
+  <details>
+  <summary>Abstract</summary>
+
+  —Dense metric depth estimation using millimeter- wave radar typically requires dense LiDAR supervision, gen- erated via multi-frame projection and interpolation, to guide the learning of accurate depth from sparse radar measurements and RGB images. However, this paradigm is both costly and data- intensive. To address this, we propose RaCalNet, a novel frame- work that eliminates the need for dense supervision by using sparse LiDAR to supervise the learning of refined radar mea- surements, resulting in a supervision density of merely around 1% compared to dense-supervised methods. Unlike previous approaches that associate radar points with broad image regions and rely heavily on dense labels, RaCalNet first recalibrates and refines sparse radar points to construct accurate depth priors.
+
+  </details>
 
 ### <span id="reconstruction-class1b">Efficient 3D Vision Transformers</span>
-| Title                                                        | Date   |                             Link                             | Venue |
-| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
-| [GPA-VGGT: Adapting VGGT to Large scale Localization by Self-Supervised Learning](https://arxiv.org/abs/2601.16885) | 01/2026 | [code](https://github.com/X-yangfan/GPA-VGGT) | arXiv |
-| [InfiniteVGGT: Visual Geometry Grounded Transformer for Endless Streams](https://arxiv.org/abs/2601.02281) | 01/2026 | [code](https://github.com/AutoLab-SAI-SJTU/InfiniteVGGT) | arXiv |
-| [AVGGT: Rethinking Global Attention for Accelerating VGGT](https://arxiv.org/abs/2512.02541) | 12/2025 |  | arXiv |
-| [FlashVGGT: Efficient and Scalable Visual Geometry Transformers](https://arxiv.org/abs/2512.01896) | 12/2025 | [project](https://wzpscott.github.io/flashvggt_page/) | arXiv |
-| [LiteVGGT: Boosting Vanilla VGGT via Geometry-aware Cached Token Merging](https://arxiv.org/abs/2512.03596) | 12/2025 | [project](https://garlicba.github.io/LiteVGGT/) | arXiv |
-| [HTTM: Head-wise Temporal Token Merging for Faster VGGT](https://arxiv.org/abs/2511.17396) | 11/2025 |  | arXiv |
-| [FastVGGT: Training-Free Acceleration of Visual Geometry Transformer](https://arxiv.org/abs/2509.02560) | 09/2025 | [project](https://mystorm16.github.io/fastvggt/) | ICLR 2026 |
-| [Faster VGGT with Block-Sparse Global Attention](https://arxiv.org/abs/2509.05483) | 09/2025 |  | arXiv |
-| [VGGT-Long: Chunk it, Loop it, Align it – Pushing VGGT's Limits on Long RGB Sequences](https://arxiv.org/abs/2507.16443) | 07/2025 | [code](https://github.com/DengKaiCQ/VGGT-Long) | arXiv |
+- **[GPA-VGGT: Adapting VGGT to Large scale Localization by Self-Supervised Learning](https://arxiv.org/abs/2601.16885)** — 01/2026 | **arXiv** | [code](https://github.com/X-yangfan/GPA-VGGT)
 
+  <details>
+  <summary>Abstract</summary>
+
+  —Transformer-based general visual geometry frame- works have shown promising performance in camera pose estima- tion and 3D scene understanding. Recent advancements in Visual Geometry Grounded Transformer (VGGT) models have shown great promise in camera pose estimation and 3D reconstruction. However, these models typically rely on ground truth labels for training, posing challenges when adapting to unlabeled and unseen scenes. In this paper, we propose a self-supervised framework to train VGGT with unlabeled data, thereby en- hancing its localization capability in large-scale environments. To achieve this, we extend conventional pair-wise relations to sequence-wise geometric constraints for self-supervised learning.
+
+  </details>
+
+- **[InfiniteVGGT: Visual Geometry Grounded Transformer for Endless Streams](https://arxiv.org/abs/2601.02281)** — 01/2026 | **arXiv** | [code](https://github.com/AutoLab-SAI-SJTU/InfiniteVGGT)
+
+  <details>
+  <summary>Abstract</summary>
+
+  The grand vision of enabling persistent, large-scale 3D visual geometry understanding is shackled by the irrec- oncilable demands of scalability and long-term stability. While offline models like VGGT achieve inspiring geom- etry capability, their batch-based nature renders them ir- relevant for live systems. Streaming architectures, though the intended solution for live operation, have proven inade- quate. Existing methods either fail to support truly infinite- horizon inputs or suffer from catastrophic drift over long sequences. We shatter this long-standing dilemma with In- finiteVGGT, a causal visual geometry transformer that op- erationalizes the concept of a rolling memory through a bounded yet adaptive and perpetually expressive KV cache.
+
+  </details>
+
+- **[AVGGT: Rethinking Global Attention for Accelerating VGGT](https://arxiv.org/abs/2512.02541)** — 12/2025 | **arXiv**
+
+  <details>
+  <summary>Abstract</summary>
+
+  Since DUSt3R, models such as VGGT and π3 have shown strong multi-view 3D performance, but their heavy reliance on global self-attention results in high computational cost. Existing sparse-attention variants offer partial speedups, yet lack a systematic analysis of how global attention con- tributes to multi-view reasoning. In this paper, we first con- duct an in-depth investigation of the global attention mod- ules in VGGT and π3 to better understand their roles. Our analysis reveals a clear division of roles in the alternating *Equal contribution. †Corresponding author. global-frame architecture: early global layers do not form meaningful correspondences, middle layers perform cross- view alignment, and last layers provide only minor refine- ments.
+
+  </details>
+
+- **[FlashVGGT: Efficient and Scalable Visual Geometry Transformers](https://arxiv.org/abs/2512.01896)** — 12/2025 | **arXiv** | [project](https://wzpscott.github.io/flashvggt_page/)
+
+  <details>
+  <summary>Abstract</summary>
+
+  3D reconstruction from multi-view images is a core chal- lenge in computer vision. Recently, feed-forward methods have emerged as efficient and robust alternatives to tra- ditional per-scene optimization techniques. Among them, state-of-the-art models like the Visual Geometry Ground- ing Transformer (VGGT) leverage full self-attention over all image tokens to capture global relationships. However, this approach suffers from poor scalability due to the quadratic complexity of self-attention and the large number of tokens generated in long image sequences. In this work, we in- troduce FlashVGGT, an efficient alternative that addresses this bottleneck through a descriptor-based attention mecha- nism.
+
+  </details>
+
+- **[LiteVGGT: Boosting Vanilla VGGT via Geometry-aware Cached Token Merging](https://arxiv.org/abs/2512.03596)** — 12/2025 | **arXiv** | [project](https://garlicba.github.io/LiteVGGT/)
+
+  <details>
+  <summary>Abstract</summary>
+
+  3D vision foundation models like Visual Geometry Grounded Transformer (VGGT) have advanced greatly in geometric perception. However it is time-consuming and memory-intensive for long sequences, limiting application to large-scale scenes beyond hundreds of images. To ad- dress this, we propose LiteVGGT, achieving up to 10× speedup and substantial memory reduction, enabling effi- cient processing of 1000-image scenes. We derive two key insights for 3D reconstruction: 1) tokens from local im- age regions have inherent geometric correlations, leading to high similarity and computational redundancy; 2) token similarity acroses adjacent network layers remains stable, allowing for reusable merge decisions.
+
+  </details>
+
+- **[HTTM: Head-wise Temporal Token Merging for Faster VGGT](https://arxiv.org/abs/2511.17396)** — 11/2025 | **arXiv**
+
+  <details>
+  <summary>Abstract</summary>
+
+  The Visual Geometry Grounded Transformer (VGGT) marks a significant leap forward in 3D scene reconstruc- tion, as it is the first model that directly infers all key 3D at- tributes (camera poses, depths, and dense geometry) jointly in one pass. However, this joint inference mechanism re- quires global attention layers that perform all-to-all atten- tion computation on tokens from all views. For reconstruc- tion of large scenes with long-sequence inputs, this causes a significant latency bottleneck. In this paper, we pro- pose head-wise temporal merging (HTTM), a training-free 3D token merging method for accelerating VGGT.
+
+  </details>
+
+- **[FastVGGT: Training-Free Acceleration of Visual Geometry Transformer](https://arxiv.org/abs/2509.02560)** — 09/2025 | **ICLR 2026** | [project](https://mystorm16.github.io/fastvggt/)
+
+  <details>
+  <summary>Abstract</summary>
+
+  Foundation models for 3D vision have recently demon- strated remarkable capabilities in 3D perception. How- ever, scaling these models to long-sequence image inputs remains a significant challenge due to inference-time in- *Corresponding Author. efficiency. In this work, we present a detailed analysis of VGGT, a state-of-the-art feed-forward visual geometry model and identify its primary bottleneck. Visualization fur- ther reveals a token collapse phenomenon in the attention maps. Motivated by these findings, we explore the poten- tial of token merging in the feed-forward visual geometry model. Owing to the unique architectural and task-specific properties of 3D models, directly applying existing merg- arXiv:2509.02560v2 [cs.CV] 9 Nov 2025 ing techniques proves challenging.
+
+  </details>
+
+- **[Faster VGGT with Block-Sparse Global Attention](https://arxiv.org/abs/2509.05483)** — 09/2025 | **arXiv**
+
+  <details>
+  <summary>Abstract</summary>
+
+  Efficient and accurate feed-forward multi-view recon- struction has long been an important task in computer vi- sion. Recent transformer-based models like VGGT and π3 have achieved impressive results with simple architectures, yet they face an inherent runtime bottleneck, due to the quadratic complexity of the global attention layers, that lim- its the scalability to large image sets. In this paper, we em- pirically analyze the global attention matrix of these models and observe that probability mass concentrates on a small subset of patch-patch interactions that correspond to cross- view geometric matches.
+
+  </details>
+
+- **[VGGT-Long: Chunk it, Loop it, Align it – Pushing VGGT's Limits on Long RGB Sequences](https://arxiv.org/abs/2507.16443)** — 07/2025 | **arXiv** | [code](https://github.com/DengKaiCQ/VGGT-Long)
+
+  <details>
+  <summary>Abstract</summary>
+
+  Foundation models for 3D vision have recently demon- strated remarkable capabilities in 3D perception. How- ever, extending these models to large-scale RGB stream 3D reconstruction remains challenging due to memory lim- itations. In this work, we propose VGGT-Long, a sim- ple yet effective system that pushes the limits of monocu- 1† Corresponding author. lar 3D reconstruction to kilometer-scale, unbounded out- door environments. Our approach addresses the scalability bottlenecks of existing models through a chunk-based pro- cessing strategy combined with overlapping alignment and lightweight loop closure optimization. Without requiring camera calibration, depth supervision or model retraining, VGGT-Long achieves trajectory and reconstruction perfor- mance comparable to traditional methods.
+
+  </details>
 
 ### <span id="reconstruction-class2">Few-Shot Generative Recon</span>
-| Title                                                        | Date   |                             Link                             | Venue |
-| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
-| [MIRROR: Make Your Object-Level Multi-View Generation Consistent](https://arxiv.org/abs/2501.12345) | 2025 |  | ICML 2026 |
-| [Refine Any Object in Any Scene (RAISE)](https://arxiv.org/abs/2506.12345) | 06/2025 | [code](https://github.com/PolySummit/RAISE) | arXiv |
-| [GenFusion: Closing the Loop between Reconstruction and Generation via Videos](https://arxiv.org/pdf/2503.21219) | 03/2025 | [code](https://github.com/Inception3D/GenFusion) | CVPR 2025 |
-| [Difix3D+: Improving 3D Reconstructions with Single-Step Diffusion Models](https://arxiv.org/abs/2503.01774) | 03/2025 |  | CVPR 2025 |
-| [Free360: Layered Gaussian Splatting for Unbounded 360-Degree View Synthesis from Extremely Sparse and Unposed Views](https://arxiv.org/pdf/2503.24382) | 03/2025 |  | CVPR 2025 |
-| [LiftImage3D: Lifting Any Single Image to 3D Gaussians with Video Generation Priors](https://arxiv.org/abs/2412.09597) | 12/2024 | [code](https://github.com/AbrahamYabo/LiftImage3D) | arXiv |
-| [MVSplat360: Feed-Forward 360 Scene Synthesis from Sparse Views](https://arxiv.org/abs/2411.04924) | 11/2024 | [code](https://github.com/donydchen/mvsplat360) | NeurIPS 2024 |
-| [3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors](https://arxiv.org/abs/2410.16266) | 10/2024 |  | NeurIPS 2024 |
-| [ViewCrafter: Taming Video Diffusion Models for High-fidelity Novel View Synthesis](https://arxiv.org/abs/2409.02048) | 09/2024 | [code](https://drexubery.github.io/ViewCrafter/) | arXiv |
-| [ReconX: Reconstruct Any Scene from Sparse Views with Video Diffusion Model](https://arxiv.org/abs/2408.16767) | 08/2024 |  | arXiv |
+- **[MIRROR: Make Your Object-Level Multi-View Generation Consistent](https://arxiv.org/abs/2501.12345)** — 2025 | **ICML 2026**
+
+  <details>
+  <summary>Abstract</summary>
+
+  Multi-view Diffusion has greatly advanced the de- velopment of 3D content creation by generating multiple images from distinct views, achieving remarkable photorealistic results. However, ex- isting works are still vulnerable to inconsistent 3D geometric structures (commonly known as Janus Problem) and severe artifacts. In this paper, we introduce MIRROR, a versatile plug-and-play method that rectifies such inconsistencies in a training-free manner, enabling the acquisition of high-fidelity, realistic structures without compro- mising diversity. Our key idea focuses on tracing the motion trajectory of physical points across adjacent viewpoints, enabling rectifications based on neighboring observations of the same region.
+
+  </details>
+
+- **[Refine Any Object in Any Scene (RAISE)](https://arxiv.org/abs/2506.12345)** — 06/2025 | **arXiv** | [code](https://github.com/PolySummit/RAISE)
+
+  <details>
+  <summary>Abstract</summary>
+
+  Viewpoint missing of objects is common in scene reconstruction, as camera paths typically prioritize capturing the overall scene structure rather than individual objects. This makes it highly challenging to achieve high-fidelity object-level mod- eling while maintaining accurate scene-level representation. Addressing this issue is critical for advancing downstream tasks requiring detailed object understanding and appearance modeling. In this paper, we introduce Refine Any object In any ScenE (RAISE), a novel 3D enhancement framework that leverages 3D generative priors to recover fine-grained object geometry and appearance under missing views.
+
+  </details>
+
+- **[GenFusion: Closing the Loop between Reconstruction and Generation via Videos](https://arxiv.org/pdf/2503.21219)** — 03/2025 | **CVPR 2025** | [code](https://github.com/Inception3D/GenFusion)
+
+- **[Difix3D+: Improving 3D Reconstructions with Single-Step Diffusion Models](https://arxiv.org/abs/2503.01774)** — 03/2025 | **CVPR 2025**
+
+- **[Free360: Layered Gaussian Splatting for Unbounded 360-Degree View Synthesis from Extremely Sparse and Unposed Views](https://arxiv.org/pdf/2503.24382)** — 03/2025 | **CVPR 2025**
+
+- **[LiftImage3D: Lifting Any Single Image to 3D Gaussians with Video Generation Priors](https://arxiv.org/abs/2412.09597)** — 12/2024 | **arXiv** | [code](https://github.com/AbrahamYabo/LiftImage3D)
+
+- **[MVSplat360: Feed-Forward 360 Scene Synthesis from Sparse Views](https://arxiv.org/abs/2411.04924)** — 11/2024 | **NeurIPS 2024** | [code](https://github.com/donydchen/mvsplat360)
+
+- **[3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors](https://arxiv.org/abs/2410.16266)** — 10/2024 | **NeurIPS 2024**
+
+- **[ViewCrafter: Taming Video Diffusion Models for High-fidelity Novel View Synthesis](https://arxiv.org/abs/2409.02048)** — 09/2024 | **arXiv** | [code](https://drexubery.github.io/ViewCrafter/)
+
+- **[ReconX: Reconstruct Any Scene from Sparse Views with Video Diffusion Model](https://arxiv.org/abs/2408.16767)** — 08/2024 | **arXiv**
 
 ### <span id="reconstruction-class3">3D Recon-based SLAM & SFM</span>
-| Title                                                        | Date   |                             Link                             | Venue |
-| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
-| [VGGT-SLAM 2.0: Real-time Dense Feed-forward SLAM](https://arxiv.org/abs/2601.19887) | 01/2026 |  | CVPR 2026 |
-| [FUSER: Feed-Forward Multiview 3D Registration Transformer](https://arxiv.org/abs/2512.07458) | 12/2025 | [code](https://github.com/Jiang-HB/FUSER) | arXiv |
-| [VGGT4D: Mining Motion Cues in Visual Geometry Transformers](https://arxiv.org/abs/2511.12345) | 11/2025 |  | 3DV 2026 |
-| [DropD-SLAM: RGB-D SLAM Without the Depth Sensor](https://arxiv.org/abs/2510.07890) | 10/2025 |  | arXiv |
-| [PointSt3R: Point Tracking through 3D Grounded Correspondence](https://arxiv.org/abs/2510.12345) | 10/2025 | [project](http://rhodriguerrier.github.io/PointSt3R) | arXiv |
-| [Evict3R: Training-Free Token Eviction for Memory-Bounded Streaming](https://arxiv.org/abs/2509.12345) | 09/2025 |  | arXiv |
-| [WinT3R: Window-Based Streaming Reconstruction with Camera Token Pool](https://arxiv.org/abs/2509.05296) | 09/2025 | [code](https://github.com/LiZizun/WinT3R) | ICLR 2026 |
-| [SAIL-Recon: Large SfM by Augmenting Scene Regression with Localization](https://arxiv.org/abs/2508.12345) | 08/2025 | [project](https://hkust-sail.github.io/) | 3DV 2026 (Oral) |
-| [StreamVGGT: Streaming 4D Visual Geometry Transformer](https://arxiv.org/abs/2507.11539) | 07/2025 | [code](https://github.com/wzzheng/StreamVGGT) | ICLR 2026 |
-| [VGGT-SLAM: Dense RGB SLAM Optimized on the SL(4) Manifold](https://arxiv.org/abs/2505.12345) | 05/2025 |  | NeurIPS 2025 |
-| [MP-SfM: Monocular Surface Priors for Robust Structure-from-Motion](https://arxiv.org/pdf/2504.20040v1) |  04/2025 | [code](https://github.com/cvg/mpsfm) | CVPR 2025 |
-| [Easi3R: Estimating Disentangled Motion from DUSt3R Without Training](https://arxiv.org/abs/2501.12345) | 2025 |  | ICCV 2025 |
-| [RA-NeRF: Robust Neural Radiance Field Reconstruction with Accurate Camera Pose Estimation](https://arxiv.org/abs/2501.12345) | 2025 |  | IROS 2025 |
-| [MonST3R: Motion DUSt3R for Dynamic Scene Reconstruction](https://arxiv.org/abs/2410.12345) | 2024 | [project](https://monst3r-project.github.io/) | ICLR 2025 |
-| [MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors](https://arxiv.org/pdf/2412.12392) |  12/2024 | [code](https://github.com/rmurai0610/MASt3R-SLAM) | CVPR 2025 |
-| [SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos](https://arxiv.org/pdf/2412.09401) |  12/2024 | [code](https://github.com/PKU-VCL-3DV/SLAM3R) | CVPR 2025 |
-| [MASt3R-SfM: a Fully-Integrated Solution for Unconstrained Structure-from-Motion](https://arxiv.org/abs/2409.19152) |  09/2024 | [code](https://github.com/naver/mast3r/tree/mast3r_sfm) | CVPR 2025 |
+- **[VGGT-SLAM 2.0: Real-time Dense Feed-forward SLAM](https://arxiv.org/abs/2601.19887)** — 01/2026 | **CVPR 2026**
+
+  <details>
+  <summary>Abstract</summary>
+
+  —We present VGGT-SLAM 2.0, a real-time RGB feed-forward SLAM system which substantially improves upon VGGT-SLAM for incrementally aligning submaps created from VGGT. Firstly, we remove high-dimensional 15-degree- of-freedom drift and planar degeneracy from VGGT-SLAM by creating a new factor graph design while still addressing the reconstruction ambiguity of VGGT given unknown camera intrinsics. Secondly, by studying the attention layers of VGGT, we show that one of the layers is well suited to assist in image 1Laboratory for Information & Decision Systems, Massachusetts Institute of Technology, Cambridge, MA, USA. {drmaggio, lcarlone}@mit.edu *Luca holds concurrent appointments as a faculty at the Massachusetts Institute of Technology and as an Amazon Scholar.
+
+  </details>
+
+- **[FUSER: Feed-Forward Multiview 3D Registration Transformer](https://arxiv.org/abs/2512.07458)** — 12/2025 | **arXiv** | [code](https://github.com/Jiang-HB/FUSER)
+
+  <details>
+  <summary>Abstract</summary>
+
+  Registration of multiview point clouds conventionally re- lies on extensive pairwise matching to build a pose graph for global synchronization, which is computationally expen- sive and inherently ill-posed without holistic geometric con- straints. This paper proposes FUSER, the first feed-forward multiview registration transformer that jointly processes all scans in a unified, compact latent space to directly predict global poses without any pairwise estimation. To maintain tractability, FUSER encodes each scan into low-resolution superpoint features via a sparse 3D CNN that preserves ab- solute translation cues, and performs efficient intra- and inter-scan reasoning through a Geometric Alternating At- tention module.
+
+  </details>
+
+- **[VGGT4D: Mining Motion Cues in Visual Geometry Transformers](https://arxiv.org/abs/2511.12345)** — 11/2025 | **3DV 2026**
+
+  <details>
+  <summary>Abstract</summary>
+
+  Reconstructing dynamic 4D scenes is challenging, as it requires robust disentanglement of dynamic objects from the static background. While 3D foundation models like VGGT provide accurate 3D geometry, their performance drops markedly when moving objects dominate. Existing 4D approaches often rely on external priors, heavy post- optimization, or require fine-tuning on 4D datasets. In this paper, we propose VGGT4D, a training-free framework that extends the 3D foundation model VGGT for robust 4D scene reconstruction. Our approach is motivated by the key find- ing that VGGT’s global attention layers already implicitly encode rich, layer-wise dynamic cues.
+
+  </details>
+
+- **[DropD-SLAM: RGB-D SLAM Without the Depth Sensor](https://arxiv.org/abs/2510.07890)** — 10/2025 | **arXiv**
+
+- **[PointSt3R: Point Tracking through 3D Grounded Correspondence](https://arxiv.org/abs/2510.12345)** — 10/2025 | **arXiv** | [project](http://rhodriguerrier.github.io/PointSt3R)
+
+  <details>
+  <summary>Abstract</summary>
+
+  Recent advances in foundational 3D reconstruction models, such as DUSt3R and MASt3R, have shown great potential in 2D and 3D correspondence in static scenes. In this pa- per, we propose to adapt them for the task of point track- ing through 3D grounded correspondence. We first demon- strate that these models are competitive point trackers when focusing on static points, present in current point tracking benchmarks (+33.5% on EgoPoints vs. CoTracker2). We propose to combine the reconstruction loss with training for dynamic correspondence along with a visibility head, and fine-tuning MASt3R for point tracking using a rela- tively small amount of synthetic data.
+
+  </details>
+
+- **[Evict3R: Training-Free Token Eviction for Memory-Bounded Streaming](https://arxiv.org/abs/2509.12345)** — 09/2025 | **arXiv**
+
+- **[WinT3R: Window-Based Streaming Reconstruction with Camera Token Pool](https://arxiv.org/abs/2509.05296)** — 09/2025 | **ICLR 2026** | [code](https://github.com/LiZizun/WinT3R)
+
+  <details>
+  <summary>Abstract</summary>
+
+  We present WinT3R, a feed-forward reconstruction model capable of online pre- diction of precise camera poses and high-quality point maps. Previous methods suffer from a trade-off between reconstruction quality and real-time performance. To address this, we first introduce a sliding window mechanism that ensures suffi- cient information exchange among frames within the window, thereby improving the quality of geometric predictions without large computation. In addition, we leverage a compact representation of cameras and maintain a global camera token pool, which enhances the reliability of camera pose estimation without sacrificing efficiency.
+
+  </details>
+
+- **[SAIL-Recon: Large SfM by Augmenting Scene Regression with Localization](https://arxiv.org/abs/2508.12345)** — 08/2025 | **3DV 2026 (Oral)** | [project](https://hkust-sail.github.io/)
+
+  <details>
+  <summary>Abstract</summary>
+
+  Scene regression methods, such as VGGT [85], solve the Structure-from-Motion (SfM) problem by directly regress- ing camera poses and 3D scene structures from input im- ages. They demonstrate impressive performance in han- dling images under extreme viewpoint changes. However, these methods struggle to handle a large number of input images. To address this problem, we introduce SAIL-Recon, a feed-forward Transformer for large scale SfM, by aug- menting the scene regression network with visual localiza- tion capabilities. Specifically, our method first computes a neural scene representation from a subset of anchor im- ages. The regression network is then fine-tuned to recon- struct all input images conditioned on this neural scene representation.
+
+  </details>
+
+- **[StreamVGGT: Streaming 4D Visual Geometry Transformer](https://arxiv.org/abs/2507.11539)** — 07/2025 | **ICLR 2026** | [code](https://github.com/wzzheng/StreamVGGT)
+
+  <details>
+  <summary>Abstract</summary>
+
+  Perceiving and reconstructing 4D spatial-temporal geometry from videos is a fun- damental yet challenging computer vision task. To facilitate interactive and real- time applications, we propose a streaming 4D visual geometry transformer that shares a similar philosophy with autoregressive large language models. We ex- plore a simple and efficient design and employ a causal transformer architecture to process the input sequence in an online manner. We use temporal causal at- tention and cache the historical keys and values as implicit memory to enable efficient streaming long-term 4D reconstruction. This design can handle real- time 4D reconstruction by incrementally integrating historical information while maintaining high-quality spatial consistency.
+
+  </details>
+
+- **[VGGT-SLAM: Dense RGB SLAM Optimized on the SL(4) Manifold](https://arxiv.org/abs/2505.12345)** — 05/2025 | **NeurIPS 2025**
+
+  <details>
+  <summary>Abstract</summary>
+
+  We present VGGT-SLAM, a dense RGB SLAM system constructed by incre- mentally and globally aligning submaps created from the feed-forward scene reconstruction approach VGGT using only uncalibrated monocular cameras. While related works align submaps using similarity transforms (i.e., translation, rotation, and scale), we show that such approaches are inadequate in the case of uncalibrated cameras. In particular, we revisit the idea of reconstruction ambiguity, where given a set of uncalibrated cameras with no assumption on the camera motion or scene structure, the scene can only be reconstructed up to a 15-degrees-of-freedom projective transformation of the true geometry.
+
+  </details>
+
+- **[MP-SfM: Monocular Surface Priors for Robust Structure-from-Motion](https://arxiv.org/pdf/2504.20040v1)** — 04/2025 | **CVPR 2025** | [code](https://github.com/cvg/mpsfm)
+
+- **[Easi3R: Estimating Disentangled Motion from DUSt3R Without Training](https://arxiv.org/abs/2501.12345)** — 2025 | **ICCV 2025**
+
+  <details>
+  <summary>Abstract</summary>
+
+  Recent advances in DUSt3R have enabled robust estima- tion of dense point clouds and camera parameters of static scenes, leveraging Transformer network architectures and direct supervision on large-scale 3D datasets. In contrast, the limited scale and diversity of available 4D datasets present a major bottleneck for training a highly general- izable 4D model. This constraint has driven conventional 4D methods to fine-tune 3D models on scalable dynamic video data with additional geometric priors such as opti- cal flow and depths. In this work, we take an opposite path and introduce Easi3R, a simple yet efficient training-free method for 4D reconstruction. Our approach applies at- tention adaptation during inference, eliminating the need for from-scratch pre-training or network fine-tuning.
+
+  </details>
+
+- **[RA-NeRF: Robust Neural Radiance Field Reconstruction with Accurate Camera Pose Estimation](https://arxiv.org/abs/2501.12345)** — 2025 | **IROS 2025**
+
+- **[MonST3R: Motion DUSt3R for Dynamic Scene Reconstruction](https://arxiv.org/abs/2410.12345)** — 2024 | **ICLR 2025** | [project](https://monst3r-project.github.io/)
+
+- **[MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors](https://arxiv.org/pdf/2412.12392)** — 12/2024 | **CVPR 2025** | [code](https://github.com/rmurai0610/MASt3R-SLAM)
+
+  <details>
+  <summary>Abstract</summary>
+
+  We present a real-time monocular dense SLAM system de- signed bottom-up from MASt3R, a two-view 3D reconstruc- tion and matching prior. Equipped with this strong prior, our system is robust on in-the-wild video sequences despite making no assumption on a fixed or parametric camera model beyond a unique camera centre. We introduce ef- ficient methods for pointmap matching, camera tracking and local fusion, graph construction and loop closure, and second-order global optimisation. With known calibration, a simple modification to the system achieves state-of-the-art performance across various benchmarks. Altogether, we propose a plug-and-play monocular SLAM system capable of producing globally consistent poses and dense geometry while operating at 15 FPS.
+
+  </details>
+
+- **[SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos](https://arxiv.org/pdf/2412.09401)** — 12/2024 | **CVPR 2025** | [code](https://github.com/PKU-VCL-3DV/SLAM3R)
+
+- **[MASt3R-SfM: a Fully-Integrated Solution for Unconstrained Structure-from-Motion](https://arxiv.org/abs/2409.19152)** — 09/2024 | **CVPR 2025** | [code](https://github.com/naver/mast3r/tree/mast3r_sfm)
 
 ## <span id="physics">🧸 Physical Object Generation</span>
-| Title                                                        | Date   |                             Link                             | Venue |
-| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
-| [SOPHY: Generating Simulation-Ready Objects with PHYsical Materials](https://arxiv.org/pdf/2504.12684) | 04/2025 |  [project](https://xjay18.github.io/SOPHY/)  | arXiv |
-| [PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos](https://arxiv.org/abs/2503.17973)| 03/2025 |  [code](https://github.com/Jianghanxiao/PhysTwin)  | arXiv |
-| [DreamPhysics: Learning Physics-Based 3D Dynamics with Video Diffusion Priors](https://arxiv.org/abs/2406.01476)| 12/2024 |  [code](https://github.com/tyhuang0428/DreamPhysics)  | AAAI 2025 |
-| [PhysDreamer: Physics-Based Interaction with 3D Objects via Video Generation](https://arxiv.org/abs/2404.13026) | 10/2024 |  [code](https://github.com/a1600012888/PhysDreamer)  | ECCV 2024 |
-| [GIC: Gaussian-Informed Continuum for Physical Property Identification and Simulation](https://arxiv.org/abs/2406.14927v3) | 10/2024 |  [code](https://github.com/Jukgei/gic)  |NeurIPS 2024 |
-| [PhysGen: Rigid-Body Physics-Grounded Image-to-Video Generation](https://arxiv.org/abs/2409.18964)| 09/2024 |  [code](https://github.com/stevenlsw/physgen)  | ECCV 2024 |
-| [Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians](https://arxiv.org/abs/2403.09434) | 07/2024 |  [code](https://github.com/Colmar-zlicheng/Spring-Gaus)  |ECCV 2024 |
-| [Sync4D: Video Guided Controllable Dynamics for Physics-Based 4D Generation](https://arxiv.org/abs/2405.16849)| 07/2024 |  [project](https://sync4dphys.github.io/)  | arXiv |
-| [Physics3D: Learning Physical Properties of 3D Gaussians via Video Diffusion](https://arxiv.org/abs/2406.04338)| 06/2024 |  [code](https://liuff19.github.io/Physics3D/)  | arXiv |
+- **[SOPHY: Generating Simulation-Ready Objects with PHYsical Materials](https://arxiv.org/pdf/2504.12684)** — 04/2025 | **arXiv** | [project](https://xjay18.github.io/SOPHY/)
 
+- **[PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos](https://arxiv.org/abs/2503.17973)** — 03/2025 | **arXiv** | [code](https://github.com/Jianghanxiao/PhysTwin)
+
+- **[DreamPhysics: Learning Physics-Based 3D Dynamics with Video Diffusion Priors](https://arxiv.org/abs/2406.01476)** — 12/2024 | **AAAI 2025** | [code](https://github.com/tyhuang0428/DreamPhysics)
+
+- **[PhysDreamer: Physics-Based Interaction with 3D Objects via Video Generation](https://arxiv.org/abs/2404.13026)** — 10/2024 | **ECCV 2024** | [code](https://github.com/a1600012888/PhysDreamer)
+
+- **[GIC: Gaussian-Informed Continuum for Physical Property Identification and Simulation](https://arxiv.org/abs/2406.14927v3)** — 10/2024 | **NeurIPS 2024** | [code](https://github.com/Jukgei/gic)
+
+- **[PhysGen: Rigid-Body Physics-Grounded Image-to-Video Generation](https://arxiv.org/abs/2409.18964)** — 09/2024 | **ECCV 2024** | [code](https://github.com/stevenlsw/physgen)
+
+- **[Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians](https://arxiv.org/abs/2403.09434)** — 07/2024 | **ECCV 2024** | [code](https://github.com/Colmar-zlicheng/Spring-Gaus)
+
+- **[Sync4D: Video Guided Controllable Dynamics for Physics-Based 4D Generation](https://arxiv.org/abs/2405.16849)** — 07/2024 | **arXiv** | [project](https://sync4dphys.github.io/)
+
+- **[Physics3D: Learning Physical Properties of 3D Gaussians via Video Diffusion](https://arxiv.org/abs/2406.04338)** — 06/2024 | **arXiv** | [code](https://liuff19.github.io/Physics3D/)
 
 ## <span id="articulate">🤖 Articulated Object Generation and Reconstruction</span>
-| Title                                                        | Date   |                             Link                             | Venue |
-| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
-| [Infinite Mobility: Scalable High-Fidelity Synthesis of Articulated Objects via Procedural Generation](https://arxiv.org/abs/2503.13424) | 03/2025 |  [code](https://github.com/OpenRobotLab/Infinite-Mobility)  | arXiv |
-| [Articulate AnyMesh: Open-Vocabulary 3D Articulated Objects Modeling](https://arxiv.org/abs/2502.02590) | 02/2025 |  [project](https://articulate-anymesh.github.io/)  | arXiv |
-| [Articulate-Anything: Automatic Modeling of Articulated Objects via a Vision-Language Foundation Model](https://arxiv.org/abs/2410.13882) | 10/2024 | [code](https://github.com/vlongle/articulate-anything) | ICLR 2025 |
-| [SINGAPO: Single Image Controlled Generation of Articulated Parts in Objects](https://arxiv.org/abs/2410.16499) | 10/2024 | [code](https://github.com/3dlg-hcvc/singapo) | ICLR 2025 |
-| [CAGE: Controllable Articulation GEneration](https://arxiv.org/abs/2312.09570v2) | 03/2024 |  [code](https://github.com/3dlg-hcvc/cage)  | CVPR 2024 |
+- **[Infinite Mobility: Scalable High-Fidelity Synthesis of Articulated Objects via Procedural Generation](https://arxiv.org/abs/2503.13424)** — 03/2025 | **arXiv** | [code](https://github.com/OpenRobotLab/Infinite-Mobility)
 
+- **[Articulate AnyMesh: Open-Vocabulary 3D Articulated Objects Modeling](https://arxiv.org/abs/2502.02590)** — 02/2025 | **arXiv** | [project](https://articulate-anymesh.github.io/)
+
+- **[Articulate-Anything: Automatic Modeling of Articulated Objects via a Vision-Language Foundation Model](https://arxiv.org/abs/2410.13882)** — 10/2024 | **ICLR 2025** | [code](https://github.com/vlongle/articulate-anything)
+
+- **[SINGAPO: Single Image Controlled Generation of Articulated Parts in Objects](https://arxiv.org/abs/2410.16499)** — 10/2024 | **ICLR 2025** | [code](https://github.com/3dlg-hcvc/singapo)
+
+- **[CAGE: Controllable Articulation GEneration](https://arxiv.org/abs/2312.09570v2)** — 03/2024 | **CVPR 2024** | [code](https://github.com/3dlg-hcvc/cage)
 
 ## <span id="human-motion">🕺 Human Motion Generation</span>
 
 ### <span id="human-motion-class1">Human-Scene Interaction</span>
-| Title                                                        | Date   |                             Link                             | Venue |
-| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
-| [ZeroHSI: Zero-Shot 4D Human-Scene Interaction by Video Generation](https://arxiv.org/abs/2412.18600) | 12/2024 |  [project](https://awfuact.github.io/zerohsi/)  | arXiv |
-| [Autonomous Character-Scene Interaction Synthesis from Text Instruction](https://arxiv.org/abs/2410.03187) | 10/2024 |  [code](https://github.com/mileret/lingo-release)  | SIGGRAPH Aisa 2024 |
-| [Human-Object Interaction from Human-Level Instructions](https://arxiv.org/pdf/2406.17840) | 06/2024 |  [project](https://hoifhli.github.io/)  | arXiv |
-| [Generating Human Motion in 3D Scenes from Text Descriptions](https://arxiv.org/abs/2405.07784) | 05/2024 |  [code](https://github.com/zju3dv/text_scene_motion)  | CVPR 2024 |
-| [Generating Human Interaction Motions in Scenes with Text Control](https://arxiv.org/abs/2404.10685) | 04/2024 |  [code](https://github.com/nv-tlabs/tesmo)  | ECCV 2024 |
-| [Controllable Human-Object Interaction Synthesis](https://arxiv.org/abs/2312.03913) | 12/2023 |  [code](https://github.com/lijiaman/chois_release)  | ECCV 2024 oral |
-| [HUMANISE: Language-conditioned Human Motion Generation in 3D Scenes](https://arxiv.org/abs/2210.09729) | 10/2022 |  [project](https://silverster98.github.io/HUMANISE/)  | NeurIPS 2022 |
+- **[ZeroHSI: Zero-Shot 4D Human-Scene Interaction by Video Generation](https://arxiv.org/abs/2412.18600)** — 12/2024 | **arXiv** | [project](https://awfuact.github.io/zerohsi/)
+
+- **[Autonomous Character-Scene Interaction Synthesis from Text Instruction](https://arxiv.org/abs/2410.03187)** — 10/2024 | **SIGGRAPH Aisa 2024** | [code](https://github.com/mileret/lingo-release)
+
+- **[Human-Object Interaction from Human-Level Instructions](https://arxiv.org/pdf/2406.17840)** — 06/2024 | **arXiv** | [project](https://hoifhli.github.io/)
+
+- **[Generating Human Motion in 3D Scenes from Text Descriptions](https://arxiv.org/abs/2405.07784)** — 05/2024 | **CVPR 2024** | [code](https://github.com/zju3dv/text_scene_motion)
+
+- **[Generating Human Interaction Motions in Scenes with Text Control](https://arxiv.org/abs/2404.10685)** — 04/2024 | **ECCV 2024** | [code](https://github.com/nv-tlabs/tesmo)
+
+- **[Controllable Human-Object Interaction Synthesis](https://arxiv.org/abs/2312.03913)** — 12/2023 | **ECCV 2024 oral** | [code](https://github.com/lijiaman/chois_release)
+
+- **[HUMANISE: Language-conditioned Human Motion Generation in 3D Scenes](https://arxiv.org/abs/2210.09729)** — 10/2022 | **NeurIPS 2022** | [project](https://silverster98.github.io/HUMANISE/)
 
 ### <span id="human-motion-class2">Human-Scene Reconstruction</span>
-| Title                                                        | Date   |                             Link                             | Venue |
-| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
-| [HUMAN3R: Everyone Everywhere All at Once](https://arxiv.org/abs/2510.05284) | 10/2025 | [project](https://fanegg.github.io/Human3R) | ICLR 2026 |
+- **[HUMAN3R: Everyone Everywhere All at Once](https://arxiv.org/abs/2510.05284)** — 10/2025 | **ICLR 2026** | [project](https://fanegg.github.io/Human3R)
 
+  <details>
+  <summary>Abstract</summary>
+
+  We present Human3R, a unified, feed-forward framework for online 4D human- scene reconstruction, in the world frame, from casually captured monocular videos. Unlike previous approaches that rely on multi-stage pipelines, iterative contact- aware refinement between humans and scenes, and heavy dependencies, e.g., human detection, depth estimation, and SLAM pre-processing, Human3R jointly recovers global multi-person SMPL-X bodies (“everyone”), dense 3D scene (“ev- erywhere”), and camera trajectories in a single forward pass (“all-at-once”). Our method builds upon the 4D online reconstruction model CUT3R, and uses parameter-efficient visual prompt tuning, to strive to preserve CUT3R’s rich spa- tiotemporal priors, while enabling direct readout of multiple SMPL-X bodies.
+
+  </details>
 
 ## <span id="layout">🏠 Indoor Scene Layout Generation</span>
-| Title                                                        | Date   |                             Link                             | Venue |
-| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
-| [LLM-driven Indoor Scene Layout Generation via Scaled Human-aligned Data Synthesis and Multi-Stage Preference Optimization](https://arxiv.org/abs/2506.07570) | 06/2025 |  [project](https://polysummit.github.io/optiscene.github.io/)  | arXiv |
-| [LAYOUTVLM: Differentiable Optimization of 3D Layout via Vision-Language Models](https://arxiv.org/pdf/2412.02193) | 12/2024 |  [project](https://ai.stanford.edu/~sunfanyun/layoutvlm/)  | CVPR 2025 |
-| [LLplace: The 3D Indoor Scene Layout Generation and Editing via Large Language Model](https://arxiv.org/abs/2406.03866) | 06/2024 |  [project]()  | arXiv |
-| [EchoScene: Indoor Scene Generation via Information Echo over Scene Graph Diffusion](https://arxiv.org/abs/2405.00915) | 05/2024 |  [code](https://github.com/ymxlzgy/echoscene)  | ECCV 2024 |
-| [I-Design: Personalized LLM Interior Designer](https://arxiv.org/abs/2404.02838) | 04/2024 |  [code](https://github.com/atcelen/IDesign)  | arXiv |
-| [InstructScene: Instruction-Driven 3D Indoor Scene Synthesis with Semantic Graph Prior](https://arxiv.org/pdf/2402.04717) | 02/2024 |  [code](https://github.com/chenguolin/InstructScene)  | ICLR 2024 |
-| [Holodeck: Language Guided Generation of 3D Embodied AI Environments](https://arxiv.org/abs/2312.09067) | 12/2023 |  [code](https://github.com/allenai/Holodeck)  | CVPR 2024 |
-| [LayoutGPT: Compositional Visual Planning and Generation with Large Language Models](https://arxiv.org/abs/2305.15393) | 05/2023 |  [code](https://github.com/weixi-feng/LayoutGPT)  | arXiv |
-| [DiffuScene: Denoising Diffusion Models for Generative Indoor Scene Synthesis](https://arxiv.org/pdf/2303.14207) | 03/2023 |  [code](https://github.com/tangjiapeng/DiffuScene)  | CVPR 2024 |
-| [ATISS: Autoregressive Transformers for Indoor Scene Synthesis](https://arxiv.org/pdf/2110.03675) | 10/2021 |  [code](https://github.com/nv-tlabs/ATISS)  | NeurIPS 2021 |
+- **[LLM-driven Indoor Scene Layout Generation via Scaled Human-aligned Data Synthesis and Multi-Stage Preference Optimization](https://arxiv.org/abs/2506.07570)** — 06/2025 | **arXiv** | [project](https://polysummit.github.io/optiscene.github.io/)
+
+- **[LAYOUTVLM: Differentiable Optimization of 3D Layout via Vision-Language Models](https://arxiv.org/pdf/2412.02193)** — 12/2024 | **CVPR 2025** | [project](https://ai.stanford.edu/~sunfanyun/layoutvlm/)
+
+- **[LLplace: The 3D Indoor Scene Layout Generation and Editing via Large Language Model](https://arxiv.org/abs/2406.03866)** — 06/2024 | **arXiv**
+
+- **[EchoScene: Indoor Scene Generation via Information Echo over Scene Graph Diffusion](https://arxiv.org/abs/2405.00915)** — 05/2024 | **ECCV 2024** | [code](https://github.com/ymxlzgy/echoscene)
+
+- **[I-Design: Personalized LLM Interior Designer](https://arxiv.org/abs/2404.02838)** — 04/2024 | **arXiv** | [code](https://github.com/atcelen/IDesign)
+
+- **[InstructScene: Instruction-Driven 3D Indoor Scene Synthesis with Semantic Graph Prior](https://arxiv.org/pdf/2402.04717)** — 02/2024 | **ICLR 2024** | [code](https://github.com/chenguolin/InstructScene)
+
+- **[Holodeck: Language Guided Generation of 3D Embodied AI Environments](https://arxiv.org/abs/2312.09067)** — 12/2023 | **CVPR 2024** | [code](https://github.com/allenai/Holodeck)
+
+- **[LayoutGPT: Compositional Visual Planning and Generation with Large Language Models](https://arxiv.org/abs/2305.15393)** — 05/2023 | **arXiv** | [code](https://github.com/weixi-feng/LayoutGPT)
+
+- **[DiffuScene: Denoising Diffusion Models for Generative Indoor Scene Synthesis](https://arxiv.org/pdf/2303.14207)** — 03/2023 | **CVPR 2024** | [code](https://github.com/tangjiapeng/DiffuScene)
+
+- **[ATISS: Autoregressive Transformers for Indoor Scene Synthesis](https://arxiv.org/pdf/2110.03675)** — 10/2021 | **NeurIPS 2021** | [code](https://github.com/nv-tlabs/ATISS)
 
 ## <span id="any-to-3d">🏠 Any-to-3D Scene</span>
-| Title                                                        | Date   |                             Link                             | Venue |
-| :----------------------------------------------------------- | :-----: | :----------------------------------------------------------: | :---: |
-| [CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image](https://arxiv.org/abs/2502.12894) | 06/2025 | -  | SIGGRAPH (Best paper) |
-
+- **[CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image](https://arxiv.org/abs/2502.12894)** — 06/2025 | **SIGGRAPH (Best paper)**
 
 ## <span id="star">🌟 Star History</span>
 
